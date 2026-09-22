@@ -2,6 +2,12 @@
 
 Review date: 22 September 2026.
 
+Publication follow-up: the owner subsequently requested uploading to their specified
+GitHub repository. The inspected 186-file set was published on `main` as initial commit
+`54fe15550371d1ed8fefe57878e7c9a45bd55f2c`; its hosted Linux build, native/Python tests,
+and smoke run passed. License selection and full attribution/rights documentation remain
+pending. The pre-publication findings below are retained as the historical review.
+
 ## Sharing for research supervision
 
 The project can be presented as a working synthetic shared-control research prototype with

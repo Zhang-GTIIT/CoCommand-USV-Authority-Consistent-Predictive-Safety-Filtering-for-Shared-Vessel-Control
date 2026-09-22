@@ -251,3 +251,16 @@ absolute paths. Public-safe synthetic example output is under
   a clean-checkout/hosted-CI test.
 - No control-source changes, formal experiment reruns, changes to frozen statistics,
   physical hardware connections, license selection, commit, remote creation, or upload.
+
+## Initial GitHub publication
+
+- At the user's explicit request, published the inspected 186-file code/documentation/
+  aggregate-evidence set to the user-specified repository on `main`. Initial source commit:
+  `54fe15550371d1ed8fefe57878e7c9a45bd55f2c`.
+- Local native tests and all 29 Python tests passed again before publication. The hosted
+  Linux workflow for that commit completed successfully: configuration, build, native
+  tests, Python tests, and short headless smoke. Evidence:
+  https://github.com/Zhang-GTIIT/CoCommand-USV-Authority-Consistent-Predictive-Safety-Filtering-for-Shared-Vessel-Control/actions/runs/35708643425
+- Publication did not include raw run archives, report-authoring output, private test logs,
+  inherited source snapshots, tool caches, binaries, or application-specific resume notes.
+  No license was selected, formal studies rerun, or physical hardware connected.

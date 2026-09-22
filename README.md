@@ -104,7 +104,7 @@ python3 -m cocommand experiment --id E00 --tier smoke --seeds 0:1 \
   --duration 0.5 --run-root runs/readme-smoke
 ```
 
-The latest local verification (22 September 2026) rebuilt the native core in a fresh directory, passed CTest (one executable containing multiple native checks), and passed 29 Python tests on Windows. [Commands and evidence](docs/test_evidence.md) distinguish desktop verification from cross-build and physical-board execution. The Linux CI workflow is provided; no hosted CI result is asserted.
+The latest local verification (22 September 2026) rebuilt the native core in a fresh directory, passed CTest (one executable containing multiple native checks), and passed 29 Python tests on Windows. [Commands and evidence](docs/test_evidence.md) distinguish desktop verification from cross-build and physical-board execution. The initial published revision also passed [hosted Linux configuration, build, native/Python tests, and headless smoke](https://github.com/Zhang-GTIIT/CoCommand-USV-Authority-Consistent-Predictive-Safety-Filtering-for-Shared-Vessel-Control/actions/runs/35708643425).
 
 ## Select or reproduce experiments
 
@@ -145,4 +145,4 @@ sh deploy/orangepi/run_replay.sh
 
 The vessel implementation is separated from the inherited two-dimensional prototype; the latter remains a local, quarantined snapshot. [Source traceability](docs/source_traceability.md) distinguishes the supplied formulation, engineering assumptions, and implemented extensions.
 
-Copyright, redistribution permission, and the repository license need owner/supervisor confirmation before public release. No open-source license is currently granted. Raw runs, private logs, local report-authoring material, third-party manuscripts, and toolchains are excluded from the Git publication set. See the [release review](docs/release_review.md) and [licensing checklist](docs/licensing.md).
+The research code and aggregate evidence are published at the project owner's request. License selection and complete authorship/rights documentation remain pending; no open-source license is currently granted. Raw runs, private logs, local report-authoring material, third-party manuscripts, and toolchains are excluded from the Git publication set. Inherited source remains excluded. See the [release review](docs/release_review.md) and [licensing checklist](docs/licensing.md).
