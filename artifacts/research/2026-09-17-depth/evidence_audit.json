@@ -1,0 +1,67 @@
+{
+  "trials": 600,
+  "control_cycles": 123593,
+  "accepted_cycles": 88323,
+  "invalid_accepted_witnesses": 0,
+  "throttle_violations": 0,
+  "truth_access_violations": 0,
+  "task_hash_mismatches": 0,
+  "alignment_mismatches": 0,
+  "stress_optimization_compared_cycles": 19314,
+  "stress_optimization_decision_mismatches": 0,
+  "execution_failure_records": 0,
+  "replay_calls": 270900,
+  "replay_invalid_acceptances": 0,
+  "soft_deadline_overruns_by_budget": {
+    "0.1:short_circuit": {
+      "calls": 1890,
+      "returned_after_soft_budget": 117,
+      "accepted_after_soft_budget": 0
+    },
+    "0.1:exhaustive": {
+      "calls": 1890,
+      "returned_after_soft_budget": 1866,
+      "accepted_after_soft_budget": 0
+    },
+    "0.25:short_circuit": {
+      "calls": 1890,
+      "returned_after_soft_budget": 85,
+      "accepted_after_soft_budget": 0
+    },
+    "0.25:exhaustive": {
+      "calls": 1890,
+      "returned_after_soft_budget": 451,
+      "accepted_after_soft_budget": 3
+    },
+    "0.5:short_circuit": {
+      "calls": 1890,
+      "returned_after_soft_budget": 78,
+      "accepted_after_soft_budget": 0
+    },
+    "0.5:exhaustive": {
+      "calls": 1890,
+      "returned_after_soft_budget": 85,
+      "accepted_after_soft_budget": 0
+    },
+    "1.0:short_circuit": {
+      "calls": 1890,
+      "returned_after_soft_budget": 77,
+      "accepted_after_soft_budget": 0
+    },
+    "1.0:exhaustive": {
+      "calls": 1890,
+      "returned_after_soft_budget": 78,
+      "accepted_after_soft_budget": 0
+    },
+    "2.0:short_circuit": {
+      "calls": 1890,
+      "returned_after_soft_budget": 32,
+      "accepted_after_soft_budget": 0
+    },
+    "2.0:exhaustive": {
+      "calls": 1890,
+      "returned_after_soft_budget": 33,
+      "accepted_after_soft_budget": 0
+    }
+  }
+}

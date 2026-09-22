@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=80,<82", "wheel>=0.45,<0.46"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cocommand-usv"
+version = "0.1.0"
+description = "Non-neural shared-control research software for unmanned surface vessels"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "License pending owner confirmation; see docs/licensing.md"}
+authors = [{name = "Project authorship pending confirmation"}]
+dependencies = []
+
+[project.scripts]
+cocommand = "cocommand.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "python"}
+
+[tool.setuptools.packages.find]
+where = ["python"]
+

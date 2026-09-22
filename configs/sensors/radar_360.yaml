@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "id": "radar_360",
+  "beam_count": 360,
+  "range_m": 65.0,
+  "scan_mode": "instantaneous",
+  "cluster_gap_m": 1.5,
+  "fit_radius_m": [0.2, 12.0],
+  "fit_max_residual_m": 0.12,
+  "fallback_radius_m": 0.6,
+  "association_gate_m": 2.0,
+  "memory_s": 3.0,
+  "sigma_velocity_floor_mps": 0.12
+}
+

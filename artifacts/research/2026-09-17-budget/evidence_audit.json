@@ -1,0 +1,16 @@
+{
+  "trials": 840,
+  "cycles": 116633,
+  "accepted_cycles": 81706,
+  "incomplete_or_nonpositive_witnesses": 0,
+  "throttle_violations": 0,
+  "exact_input_violations": 0,
+  "step_budget_violations": 0,
+  "time_alignment_violations": 0,
+  "task_hash_violations": 0,
+  "truth_access_manifest_violations": 0,
+  "unexpected_outcomes": 0,
+  "execution_failure_records": 0,
+  "generous_budget_short_circuit_compared_cycles": 12000,
+  "generous_budget_short_circuit_decision_mismatches": 0
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "coordinate_frame": "x=north,y=east,heading_from_x_toward_y",
+  "default_duration_s": 30.0,
+  "default_vessel": {"state": [-12.0, 0.0, 0.0, 1.0, 0.0, 0.0, 10.0, 0.0], "human_command": [0.5, 0.0]},
+  "scenarios": {
+    "S01": {"name": "open_water", "obstacles": [], "human_script": "gentle_sine"},
+    "S02": {"name": "single_static_circle", "obstacles": [{"shape": "circle", "center": [0.0, 0.0], "velocity": [0.0, 0.0], "radius_m": 0.8}], "human_script": "straight"},
+    "S03": {"name": "narrow_channel", "obstacles": [{"shape": "wall", "a": [-2.0, -1.025], "b": [6.0, -1.025]}, {"shape": "wall", "a": [-2.0, 1.025], "b": [6.0, 1.025]}], "human_script": "straight", "engineering_geometry": true},
+    "S04": {"name": "crossing", "obstacles": [{"shape": "circle", "center": [0.0, -12.0], "velocity": [0.0, 1.0], "radius_m": 0.6}], "human_script": "straight"},
+    "S05": {"name": "head_on", "obstacles": [{"shape": "circle", "center": [12.0, 0.0], "velocity": [-1.0, 0.0], "radius_m": 0.6}], "human_script": "straight"},
+    "S06": {"name": "overtaking", "initial_state": [-12.0, 0.0, 0.0, 1.2, 0.0, 0.0, 13.44, 0.0], "obstacles": [{"shape": "circle", "center": [-4.0, 0.0], "velocity": [0.5, 0.0], "radius_m": 0.6}], "human_script": "straight"},
+    "S07": {"name": "multiple_competing", "obstacles": [{"shape": "circle", "center": [0.0, 0.0], "velocity": [0.0, 0.0], "radius_m": 0.8}, {"shape": "circle", "center": [3.0, 2.0], "velocity": [0.0, 0.0], "radius_m": 0.6}, {"shape": "circle", "center": [4.0, -2.0], "velocity": [0.0, 0.0], "radius_m": 0.6}], "human_script": "straight"},
+    "S08": {"name": "seen_then_occluded", "base": "S04", "occlusion_window_s": [1.0, 3.0], "human_script": "straight"},
+    "S09": {"name": "never_seen_then_appears", "base": "S04", "visibility_after_s": 2.0, "human_script": "straight"},
+    "S10": {"name": "sparse_abnormal_observation", "base": "S04", "range_noise_std_m": 0.15, "frame_dropout_probability": 0.3, "human_script": "straight"},
+    "S11": {"name": "high_throttle_late_action", "base": "S02", "human_script": "sustained_high_throttle"},
+    "S12": {"name": "beyond_horizon_dead_end", "obstacles": [{"shape": "wall", "a": [18.0, -4.0], "b": [18.0, 4.0]}, {"shape": "wall", "a": [-2.0, -4.0], "b": [18.0, -4.0]}, {"shape": "wall", "a": [-2.0, 4.0], "b": [18.0, 4.0]}], "human_script": "sustained_high_throttle", "engineering_geometry": true}
+  }
+}
+

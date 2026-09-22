@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "id": "real_unknown_disabled",
+  "mode": "real",
+  "enabled": false,
+  "real_output": false,
+  "required_before_enable": ["orange_pi_model", "os_image", "lidar_model_protocol", "state_source_protocol", "actuator_protocol", "steering_feedback", "reverse_capability", "calibration", "external_watchdog", "independent_stop", "reviewed_fail_action", "manual_arm_token"],
+  "refusal_reason": "Unknown hardware is fail-closed. No GPIO, serial, voltage, or propulsion protocol is guessed."
+}
+

@@ -1,0 +1,5 @@
+task_hash,experiment,tier,controller,scenario,seed,collision,minimum_true_hull_clearance_m,pass_through_rate,budget_unknown_fraction,latency_p95_ms,formal_evidence
+034694c9f460ff87,E00,smoke,enhanced_steering,S02,0,False,10.098479882726561,0.0,0.0,11.49564,False
+052d817304cc963d,E00,smoke,steering_hold_contract,S01,0,False,,1.0,0.0,0.21162,False
+47573368edf8f4be,E00,smoke,steering_hold_contract,S02,0,False,10.10000000000001,1.0,0.0,0.6573199999999998,False
+997e0be5cea1f4fa,E00,smoke,enhanced_steering,S01,0,False,,1.0,0.0,0.19526,False

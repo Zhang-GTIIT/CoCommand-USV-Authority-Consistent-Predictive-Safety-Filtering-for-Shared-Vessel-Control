@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "software_version": "0.1.0",
+  "task": {
+    "experiment_id": "E00",
+    "tier": "smoke",
+    "controller": "steering_hold_contract",
+    "scenario": "S01",
+    "seed": 0,
+    "overrides": {},
+    "task_hash": "052d817304cc963d",
+    "code_fingerprint": "dac5a31dac754820"
+  },
+  "data_classification": "synthetic_software_smoke",
+  "vessel_parameter_source": "engineering_assumption:synthetic_vessel_v1",
+  "controller_truth_access": false,
+  "physical_scorer_truth_access": true,
+  "native_library": "build/libcocommand_c.dll",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "clock": "time.perf_counter/experiment timestamps"
+}

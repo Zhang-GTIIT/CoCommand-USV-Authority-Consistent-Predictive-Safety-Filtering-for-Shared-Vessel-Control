@@ -1,0 +1,24 @@
+[Unit]
+Description=CoCommand-USV headless mock runtime (no real actuator output)
+After=network.target
+
+[Service]
+Type=simple
+User=cocommand
+Group=cocommand
+WorkingDirectory=/opt/cocommand
+Environment=PYTHONPATH=/opt/cocommand/python
+Environment=COCOMMAND_NATIVE_LIB=/opt/cocommand/lib/libcocommand_c.so
+ExecStart=/usr/bin/python3 -m cocommand runtime --mode mock --config /opt/cocommand/configs/hardware/mock.yaml --cycles 0
+Restart=on-failure
+RestartSec=2
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/var/lib/cocommand /var/log/cocommand
+MemoryMax=512M
+
+[Install]
+WantedBy=multi-user.target
+

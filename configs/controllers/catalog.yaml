@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "controllers": {
+    "unfiltered_human": {"code": "C0", "bypass_filter": true, "authority_mode": 1, "sampling_mode": 1, "horizon_mode": 1, "margin_mode": 0, "predictor_mode": 0, "backup_library_mode": 0, "selection_policy": 0},
+    "paper_hypothetical": {"code": "C1", "simulation_only": true, "authority_mode": 0, "sampling_mode": 1, "horizon_mode": 1, "margin_mode": 1, "predictor_mode": 0, "backup_library_mode": 0, "selection_policy": 0},
+    "steering_hold_contract": {"code": "C2", "authority_mode": 1, "sampling_mode": 1, "horizon_mode": 1, "margin_mode": 1, "predictor_mode": 0, "backup_library_mode": 0, "selection_policy": 0},
+    "frozen_command_steering": {"code": "C3", "authority_mode": 1, "sampling_mode": 1, "horizon_mode": 1, "margin_mode": 1, "predictor_mode": 0, "backup_library_mode": 3, "selection_policy": 0},
+    "largest_clearance_steering": {"code": "C4", "authority_mode": 1, "sampling_mode": 1, "horizon_mode": 1, "margin_mode": 1, "predictor_mode": 0, "backup_library_mode": 0, "selection_policy": 1},
+    "enhanced_steering": {"code": "C5", "authority_mode": 1, "sampling_mode": 4, "horizon_mode": 0, "margin_mode": 2, "predictor_mode": 1, "backup_library_mode": 1, "selection_policy": 0},
+    "emergency_authority": {"code": "C6", "authority_mode": 2, "sampling_mode": 4, "horizon_mode": 2, "margin_mode": 2, "predictor_mode": 1, "backup_library_mode": 2, "selection_policy": 0},
+    "full_command_weighted": {"code": "C7", "authority_mode": 3, "sampling_mode": 1, "horizon_mode": 0, "margin_mode": 2, "predictor_mode": 1, "backup_library_mode": 2, "selection_policy": 0},
+    "predictive_optimizer_adapted": {"code": "C8", "authority_mode": 1, "sampling_mode": 1, "horizon_mode": 0, "margin_mode": 2, "predictor_mode": 1, "backup_library_mode": 4, "selection_policy": 0, "adapted_not_literature_replication": true},
+    "goal_agnostic_sampling_adapted": {"code": "C9", "authority_mode": 1, "sampling_mode": 4, "horizon_mode": 0, "margin_mode": 2, "predictor_mode": 1, "backup_library_mode": 5, "selection_policy": 0, "adapted_not_literature_replication": true}
+  }
+}
+

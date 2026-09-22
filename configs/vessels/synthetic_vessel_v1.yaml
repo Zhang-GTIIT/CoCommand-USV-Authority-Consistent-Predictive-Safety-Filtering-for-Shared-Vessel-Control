@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "id": "synthetic_vessel_v1",
+  "source_status": "engineering_assumption",
+  "use": "software_test_only",
+  "dimensions_m": {"length": 1.2, "beam": 0.45, "crossflow_draft": 0.07},
+  "rigid_mass_kg": 25.0,
+  "effective_mass": {"m11_kg": 30.0, "m22_kg": 37.0, "m33_kg_m2": 5.0},
+  "damping": {"surge_linear": 4.0, "surge_quadratic": 6.0, "sway_linear": 12.0, "yaw_linear": 3.0, "crossflow_cd": 1.0, "water_density_kg_m3": 1000.0, "strips": 21},
+  "actuators": {"forward_n": 20.0, "reverse_n": 12.0, "thrust_tau_s": 0.35, "steering_tau_s": 0.25, "steering_max_deg": 30.0, "steering_rate_max_deg_s": 60.0, "reverse_available": true},
+  "warning": "Synthetic development values; not identified from a real vessel."
+}
+

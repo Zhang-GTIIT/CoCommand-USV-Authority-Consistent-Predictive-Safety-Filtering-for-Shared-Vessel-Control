@@ -1,0 +1,9 @@
+{
+  "runs/resume_evidence_v1/evaluation/study_manifest.json": "c6acc5295d38ccbfb3e14beef5ea4936745a9aee81705ee3ff22e24ac2410c1c",
+  "runs/resume_evidence_v1/followup/study_manifest.json": "eddc93e2ce32c7b0aa647149c8ae84ea1b121a37712612f3bd37c3252970a91a",
+  "runs/resume_evidence_v1/evaluation/aggregate.json": "b76297eb440ff67fd2ca567c7bc1067022a4d41cae0a1ea410dfb01b512e1c42",
+  "runs/resume_evidence_v1/followup/aggregate.json": "627ce50819514e93ecb6a8aa248a939fc64e2516311bdfd38f69b62d0e165406",
+  "configs/studies/resume_evidence_v1.yaml": "cb166b65adc09ea2e62e941a74529756e77739b7430ca898419104369893af3e",
+  "configs/studies/search_short_circuit_v1.yaml": "a1f75b5317cdc3156d33c1f604a7317f049dbefa71e31e730eff5ff1af5ca871",
+  "tools/report_resume_study.py": "1a6a526889dabcb52f46ea753de20d117614c089df60a7770a206c5a75eba5f7"
+}

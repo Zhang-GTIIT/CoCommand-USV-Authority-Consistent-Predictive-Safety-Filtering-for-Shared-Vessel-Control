@@ -1,0 +1,63 @@
+{
+  "Figure1": {
+    "experiments": [
+      "E01/S02",
+      "E01/S03"
+    ],
+    "status": "pending_formal_data"
+  },
+  "Figure2": {
+    "experiments": [
+      "E03",
+      "E06",
+      "E07"
+    ],
+    "status": "pending_formal_data"
+  },
+  "Figure3": {
+    "experiments": [
+      "E02"
+    ],
+    "status": "pending_formal_data"
+  },
+  "Figure4": {
+    "experiments": [
+      "E03-E08",
+      "E10"
+    ],
+    "status": "pending_formal_data"
+  },
+  "Figure5": {
+    "experiments": [
+      "E01",
+      "E02",
+      "E06"
+    ],
+    "status": "pending_formal_data"
+  },
+  "Figure6A": {
+    "experiments": [
+      "E09"
+    ],
+    "status": "pending_formal_data"
+  },
+  "Figure6B": {
+    "experiments": [
+      "E10",
+      "H01"
+    ],
+    "status": "pending_formal_data"
+  },
+  "Table3": {
+    "experiments": [
+      "E01",
+      "E02",
+      "E10"
+    ],
+    "status": "pending_formal_data"
+  },
+  "smoke_preview": {
+    "artifact": "tasks/*/trajectory_smoke.svg",
+    "status": "software_smoke_synthetic_simulation"
+  }
+}

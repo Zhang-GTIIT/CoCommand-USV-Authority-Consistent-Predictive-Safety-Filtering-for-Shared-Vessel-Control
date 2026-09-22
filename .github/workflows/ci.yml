@@ -1,0 +1,28 @@
+name: ci
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  linux:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Configure
+        run: cmake -S . -B build -G Ninja -DCMAKE_BUILD_TYPE=Release -DCOCOMMAND_BUILD_TESTS=ON -DCOCOMMAND_BUILD_PYBIND=OFF
+      - name: Build
+        run: cmake --build build --parallel 2
+      - name: Native tests
+        run: ctest --test-dir build --output-on-failure
+      - name: Python tests
+        env:
+          PYTHONPATH: ${{ github.workspace }}/python
+          COCOMMAND_NATIVE_LIB: ${{ github.workspace }}/build/libcocommand_c.so
+        run: python3 -m unittest discover -s tests/python -v
+      - name: One short headless smoke
+        env:
+          PYTHONPATH: ${{ github.workspace }}/python
+          COCOMMAND_NATIVE_LIB: ${{ github.workspace }}/build/libcocommand_c.so
+        run: python3 -m cocommand experiment --id E00 --tier smoke --seeds 0:1 --duration 0.2 --run-root artifacts/ci-smoke
+

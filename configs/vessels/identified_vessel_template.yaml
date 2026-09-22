@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "id": "identified_vessel_template",
+  "enabled": false,
+  "source_status": "hardware_pending",
+  "required_fields": ["dimensions", "effective_mass", "damping", "thrust_map", "actuator_time_constants", "steering_limits", "reverse_capability", "provenance"],
+  "refusal_reason": "Real-vessel identification and provenance have not been supplied."
+}
+

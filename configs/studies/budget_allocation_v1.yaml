@@ -1,0 +1,23 @@
+{
+  "study_id": "budget_allocation_v1",
+  "generator_seed": 220260917,
+  "cases_per_family": 20,
+  "source_protocol": "configs/studies/resume_evidence_v1.yaml",
+  "diagnostic_source": "runs/depth_validation_v1/R05_closed",
+  "open_duration_s": 20.0,
+  "feedback_duration_s": 40.0,
+  "physics_step_s": 0.02,
+  "step_budgets": [512, 2048, 2000000],
+  "primary_budget": 512,
+  "policies": {
+    "u2_exhaustive": {"sampling_mode": 1, "first_complete_witness": false},
+    "u2_first": {"sampling_mode": 1, "first_complete_witness": true},
+    "u4_first": {"sampling_mode": 0, "first_complete_witness": true}
+  },
+  "feedback_variants": ["u2_first_b512", "u4_first_b512", "u2_first_b2048", "u4_first_b2048", "u2_first_b2000000"],
+  "mission_goal": {"position": [8.0, 0.0], "radius_m": 1.5},
+  "heading_feedback": {"heading_gain": 1.6, "yaw_rate_gain": 1.8, "max_steering_deg": 30.0},
+  "bootstrap_resamples": 4000,
+  "primary_contrast": ["u2_first_b512", "u4_first_b512"],
+  "scope": "fresh synthetic draws from the original three encounter distributions; no hardware; exploratory conditional evidence"
+}

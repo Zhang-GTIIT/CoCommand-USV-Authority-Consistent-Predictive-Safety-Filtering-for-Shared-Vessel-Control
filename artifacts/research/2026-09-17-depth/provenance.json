@@ -1,0 +1,64 @@
+{
+  "manifest": {
+    "protocol": {
+      "study_id": "depth_validation_v1",
+      "source_run": "runs/resume_evidence_v1/evaluation",
+      "generator_seed": 120260917,
+      "step_budgets": [
+        32,
+        64,
+        128,
+        256,
+        512,
+        1024,
+        4096
+      ],
+      "primary_step_budget": 512,
+      "budget_closed_loop_cases_per_source_family": 10,
+      "deadline_budgets_ms": [
+        0.1,
+        0.25,
+        0.5,
+        1.0,
+        2.0
+      ],
+      "primary_deadline_ms": 0.25,
+      "deadline_stride_cycles": 30,
+      "deadline_repeats": 3,
+      "stress_families": [
+        "head_on",
+        "overtaking",
+        "multi_obstacle",
+        "noisy_dropout_crossing",
+        "late_static"
+      ],
+      "stress_cases_per_family": 20,
+      "stress_duration_s": 25.0,
+      "mission_cases_per_source_family": 20,
+      "mission_duration_s": 40.0,
+      "mission_goal": {
+        "position": [
+          8.0,
+          0.0
+        ],
+        "radius_m": 1.5
+      },
+      "heading_feedback": {
+        "heading_gain": 1.6,
+        "yaw_rate_gain": 1.8,
+        "max_steering_deg": 30.0
+      },
+      "bootstrap_resamples": 4000,
+      "scope": "synthetic stress, scripted-operator sensitivity, deterministic work budgets, and desktop soft deadlines; no real hardware"
+    },
+    "source_manifest_sha256": "c6acc5295d38ccbfb3e14beef5ea4936745a9aee81705ee3ff22e24ac2410c1c",
+    "source_fingerprint": "42881402c170e6b0",
+    "native_sha256": "135977e324509ad3b32360ddf4015ad4b041e10176788651edc9556e58e56073"
+  },
+  "file_sha256": {
+    "source_snapshot.zip": "ed249a19decb907168475a22446ccd8bf91b13921529b36ed0ec873d4021132a",
+    "native.dll": "135977e324509ad3b32360ddf4015ad4b041e10176788651edc9556e58e56073",
+    "stress_cases.json": "aa505382854f8c43f40140bac6f3904c0426553ed44e9b296bc0c3e98fe6a2a7",
+    "aggregate.json": "3cb8e54d96f985dc3729d3b0afba9c1f49ef987d4f700da50303be4524c49a74"
+  }
+}

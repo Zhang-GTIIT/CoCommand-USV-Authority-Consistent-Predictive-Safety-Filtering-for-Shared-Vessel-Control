@@ -1,0 +1,39 @@
+# Build and local tools
+/build*/
+/.tools/
+/.venv/
+*.obj
+*.o
+*.dll
+*.so
+*.dylib
+*.exe
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Generated and private material
+/runs/
+/tmp/
+/output/
+/artifacts/test-logs/
+/artifacts/research/**/resume_bullets_en.md
+/artifacts/research/**/中文简历与结果说明.md
+/artifacts/research/**/中文结果与简历更新.md
+/legacy/source_snapshot/
+*.pt
+*.pth
+*.pdf
+*.docx
+*.key
+*.pem
+.env*
+
+# Editors / OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

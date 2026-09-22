@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "id": "arm64_generic",
+  "architecture": "aarch64-linux-gnu",
+  "real_output": false,
+  "headless": true,
+  "hardware_model": null,
+  "os_image": null,
+  "lidar_protocol": null,
+  "actuator_protocol": null,
+  "gpio": null,
+  "serial_device": null,
+  "status": "application_build_profile_only"
+}
+

@@ -1,0 +1,29 @@
+{
+  "controller": {
+    "code": "C5",
+    "authority_mode": 1,
+    "sampling_mode": 4,
+    "horizon_mode": 0,
+    "margin_mode": 2,
+    "predictor_mode": 1,
+    "backup_library_mode": 1,
+    "selection_policy": 0
+  },
+  "scenario": {
+    "name": "open_water",
+    "obstacles": [],
+    "human_script": "gentle_sine"
+  },
+  "task": {
+    "experiment_id": "E00",
+    "tier": "smoke",
+    "controller": "enhanced_steering",
+    "scenario": "S01",
+    "seed": 0,
+    "overrides": {},
+    "task_hash": "997e0be5cea1f4fa",
+    "code_fingerprint": "dac5a31dac754820"
+  },
+  "duration_s": 0.5,
+  "vessel": "synthetic_vessel_v1"
+}

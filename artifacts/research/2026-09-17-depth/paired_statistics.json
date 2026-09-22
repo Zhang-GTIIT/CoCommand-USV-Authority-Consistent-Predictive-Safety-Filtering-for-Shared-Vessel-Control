@@ -1,0 +1,174 @@
+{
+  "R06:hypothetical->constrained": {
+    "paired_cases": 100,
+    "outcomes": {
+      "collision": {
+        "mean_paired_difference": -0.1,
+        "case_bootstrap_95": [
+          -0.17,
+          -0.03
+        ]
+      },
+      "north_progress_m": {
+        "mean_paired_difference": -1.816819901709053,
+        "case_bootstrap_95": [
+          -3.1927307773069074,
+          -0.5438941481208645
+        ]
+      },
+      "path_length_m": {
+        "mean_paired_difference": 2.3783004328709483,
+        "case_bootstrap_95": [
+          0.8609328193896776,
+          3.979349026584698
+        ]
+      }
+    }
+  },
+  "R05_closed:limited_exhaustive->limited_short": {
+    "paired_cases": 30,
+    "outcomes": {
+      "collision": {
+        "mean_paired_difference": -0.03333333333333333,
+        "case_bootstrap_95": [
+          -0.1,
+          0.0
+        ]
+      },
+      "north_progress_m": {
+        "mean_paired_difference": -1.4779249052415522,
+        "case_bootstrap_95": [
+          -2.956750291964293,
+          -0.08469960609870968
+        ]
+      },
+      "path_length_m": {
+        "mean_paired_difference": 0.3034054029765054,
+        "case_bootstrap_95": [
+          -0.16900461931936064,
+          1.0870030011477454
+        ]
+      }
+    }
+  },
+  "R07:open_hypothetical->open_constrained": {
+    "paired_cases": 60,
+    "outcomes": {
+      "collision": {
+        "mean_paired_difference": -0.25,
+        "case_bootstrap_95": [
+          -0.36666666666666664,
+          -0.15
+        ]
+      },
+      "goal_reached": {
+        "mean_paired_difference": 0.0,
+        "case_bootstrap_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "north_progress_m": {
+        "mean_paired_difference": -2.0202490852518458,
+        "case_bootstrap_95": [
+          -2.930024819646107,
+          -1.1221834019738766
+        ]
+      },
+      "goal_distance_reduction_m": {
+        "mean_paired_difference": -1.604751184049258,
+        "case_bootstrap_95": [
+          -2.4451278929045888,
+          -0.721883113859344
+        ]
+      },
+      "path_length_m": {
+        "mean_paired_difference": 8.706991775154227,
+        "case_bootstrap_95": [
+          4.88824667793699,
+          12.942312594109557
+        ]
+      }
+    }
+  },
+  "R07:feedback_hypothetical->feedback_constrained": {
+    "paired_cases": 60,
+    "outcomes": {
+      "collision": {
+        "mean_paired_difference": -0.43333333333333335,
+        "case_bootstrap_95": [
+          -0.5833333333333334,
+          -0.2833333333333333
+        ]
+      },
+      "goal_reached": {
+        "mean_paired_difference": 0.38333333333333336,
+        "case_bootstrap_95": [
+          0.21666666666666667,
+          0.55
+        ]
+      },
+      "north_progress_m": {
+        "mean_paired_difference": 3.2054841786877613,
+        "case_bootstrap_95": [
+          1.9642027266972675,
+          4.438134042076854
+        ]
+      },
+      "goal_distance_reduction_m": {
+        "mean_paired_difference": 1.1867423997935451,
+        "case_bootstrap_95": [
+          -1.2322774571231394,
+          3.392489709352588
+        ]
+      },
+      "path_length_m": {
+        "mean_paired_difference": 6.921951738134365,
+        "case_bootstrap_95": [
+          5.267639020832323,
+          8.691242276698112
+        ]
+      }
+    }
+  },
+  "R07:open_constrained->feedback_constrained": {
+    "paired_cases": 60,
+    "outcomes": {
+      "collision": {
+        "mean_paired_difference": 0.08333333333333333,
+        "case_bootstrap_95": [
+          0.016666666666666666,
+          0.16666666666666666
+        ]
+      },
+      "goal_reached": {
+        "mean_paired_difference": 0.8666666666666667,
+        "case_bootstrap_95": [
+          0.7833333333333333,
+          0.95
+        ]
+      },
+      "north_progress_m": {
+        "mean_paired_difference": 12.175629862568691,
+        "case_bootstrap_95": [
+          11.306765705226422,
+          12.940263052030385
+        ]
+      },
+      "goal_distance_reduction_m": {
+        "mean_paired_difference": 10.455427793319322,
+        "case_bootstrap_95": [
+          8.405408600904176,
+          12.22505254899777
+        ]
+      },
+      "path_length_m": {
+        "mean_paired_difference": -21.504848127428012,
+        "case_bootstrap_95": [
+          -24.07383211493816,
+          -18.930665935968154
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,212 @@
+{
+  "primary": {
+    "scope": "synthetic paired evaluation",
+    "paired_cases": 90,
+    "rollouts": 180,
+    "authority": {
+      "paper_hypothetical": {
+        "trials": 90,
+        "collisions": 26,
+        "collision_wilson_95": [
+          0.20542127259162143,
+          0.3896404359799831
+        ],
+        "cycles": 14607,
+        "accepted_cycles": 12330,
+        "throttle_dependent_witness_cycles": 5219,
+        "dependent_selected_witness_fraction": 0.42327656123276564,
+        "trials_with_dependent_selected_witness": 90,
+        "applied_throttle_violations": 0,
+        "trials_with_unknown": 0,
+        "mean_pass_through_rate": 0.7466845542901288,
+        "mean_mean_steering_modification_rad": 0.07347327748984778,
+        "mean_minimum_true_hull_clearance_m": 1.112156824676104,
+        "mean_north_progress_m": 4.697821438374351
+      },
+      "steering_hold_contract": {
+        "trials": 90,
+        "collisions": 0,
+        "collision_wilson_95": [
+          0.0,
+          0.04093562556432678
+        ],
+        "cycles": 18000,
+        "accepted_cycles": 17084,
+        "throttle_dependent_witness_cycles": 0,
+        "dependent_selected_witness_fraction": 0.0,
+        "trials_with_dependent_selected_witness": 0,
+        "applied_throttle_violations": 0,
+        "trials_with_unknown": 0,
+        "mean_pass_through_rate": 0.9366666666666666,
+        "mean_mean_steering_modification_rad": 0.025958725060602556,
+        "mean_minimum_true_hull_clearance_m": 1.8160330852772635,
+        "mean_north_progress_m": 2.25742803784604
+      }
+    },
+    "paired_differences": {
+      "pass_through_rate": {
+        "direction": "steering_hold_contract minus paper_hypothetical",
+        "mean": 0.18998211237653784,
+        "bootstrap_95": [
+          0.13923481910138996,
+          0.24281811790677546
+        ]
+      },
+      "mean_steering_modification_rad": {
+        "direction": "steering_hold_contract minus paper_hypothetical",
+        "mean": -0.04751455242924523,
+        "bootstrap_95": [
+          -0.06194041974451021,
+          -0.034293008722091345
+        ]
+      },
+      "minimum_true_hull_clearance_m": {
+        "direction": "steering_hold_contract minus paper_hypothetical",
+        "mean": 0.7038762606011594,
+        "bootstrap_95": [
+          0.5813823042985493,
+          0.8311282456310453
+        ]
+      },
+      "north_progress_m": {
+        "direction": "steering_hold_contract minus paper_hypothetical",
+        "mean": -2.4403934005283108,
+        "bootstrap_95": [
+          -3.084319155722153,
+          -1.8422618453403632
+        ]
+      },
+      "collision": {
+        "direction": "steering_hold_contract minus paper_hypothetical",
+        "mean": -0.28888888888888886,
+        "bootstrap_95": [
+          -0.3888888888888889,
+          -0.2
+        ]
+      }
+    },
+    "dedup": {
+      "cases": 90,
+      "snapshots": 630,
+      "decision_mismatches": 0,
+      "inconsistent_repeats": 0,
+      "unknown_snapshots": 0,
+      "original_steps": 445353,
+      "dedup_steps": 437784,
+      "original_branches": 16884,
+      "dedup_branches": 16564,
+      "mean_case_latency_reduction": 0.010555996084651012,
+      "case_bootstrap_95_latency_reduction": [
+        -0.005000346382565926,
+        0.025164835066965142
+      ]
+    }
+  },
+  "followup": {
+    "short_circuit": {
+      "paired_cases": 90,
+      "replayed_states": 18000,
+      "timed_states": 1800,
+      "timings_per_variant": 9000,
+      "action_mismatches": 0,
+      "reference_mismatches": 0,
+      "repeat_inconsistencies": 0,
+      "incomplete_accepted_witnesses": 0,
+      "accepted_states": 17084,
+      "exhausted_states": 916,
+      "unknown_states": 0,
+      "baseline_integration_steps": 14221230,
+      "optimized_integration_steps": 6572286,
+      "integration_reduction_fraction": 0.5378538987134025,
+      "baseline_branches": 594960,
+      "optimized_branches": 427132,
+      "mean_case_latency_reduction": 0.5752624122239338,
+      "case_bootstrap_95_latency_reduction": [
+        0.5368260003312997,
+        0.6133809854836532
+      ],
+      "mean_case_absolute_latency_reduction_ms": 0.13838211139146653,
+      "selected_backup_margin_not_preserved": true,
+      "minimum_accepted_backup_margin_m": 3.6043394977813836e-06,
+      "baseline_filter_call_ms": {
+        "median": 0.18960000306833535,
+        "p95": 0.9042800062161375,
+        "p99": 2.3401139926863834
+      },
+      "baseline_native_filter_ms": {
+        "median": 0.18485000000000001,
+        "p95": 0.8789499999999962
+      },
+      "optimized_filter_call_ms": {
+        "median": 0.024299995857290924,
+        "p95": 0.9260049992008107,
+        "p99": 2.239497994742123
+      },
+      "optimized_native_filter_ms": {
+        "median": 0.0197,
+        "p95": 0.9120199999999969
+      }
+    },
+    "physics_refinement": {
+      "paper_hypothetical": {
+        "trials": 90,
+        "physics_step_s": 0.01,
+        "collisions": 26,
+        "collision_wilson_95": [
+          0.20542127259162143,
+          0.3896404359799831
+        ],
+        "changed_collision_classification": 0,
+        "maximum_minimum_gap_change_m": 0.006128152297764977,
+        "applied_throttle_violations": 0,
+        "trials_with_unknown": 0
+      },
+      "steering_hold_contract": {
+        "trials": 90,
+        "physics_step_s": 0.01,
+        "collisions": 0,
+        "collision_wilson_95": [
+          0.0,
+          0.04093562556432678
+        ],
+        "changed_collision_classification": 0,
+        "maximum_minimum_gap_change_m": 0.21841433419836465,
+        "applied_throttle_violations": 0,
+        "trials_with_unknown": 0
+      }
+    }
+  },
+  "matched_exposure": {
+    "case_count": 90,
+    "total_matched_cycles": 14607,
+    "baseline_pass": 0.7466845542901288,
+    "constrained_pass": 0.8718510284771283,
+    "pass_difference_95": [
+      0.09140939801452029,
+      0.16053662006188207
+    ],
+    "baseline_deviation_deg": 4.209708707161833,
+    "constrained_deviation_deg": 3.0941656044663706,
+    "deviation_difference_deg_95": [
+      -1.8215371257593518,
+      -0.4248780233693201
+    ]
+  },
+  "by_scenario": {
+    "static": {
+      "cases": 30,
+      "baseline_collisions": 5,
+      "constrained_collisions": 0
+    },
+    "crossing": {
+      "cases": 30,
+      "baseline_collisions": 9,
+      "constrained_collisions": 0
+    },
+    "late_high_throttle": {
+      "cases": 30,
+      "baseline_collisions": 12,
+      "constrained_collisions": 0
+    }
+  }
+}

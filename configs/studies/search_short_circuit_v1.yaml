@@ -1,0 +1,15 @@
+{
+  "study_id": "search_short_circuit_v1",
+  "source_study": "resume_evidence_v1",
+  "source_phase": "evaluation",
+  "snapshot_stride_cycles": 1,
+  "timing_stride_cycles": 10,
+  "timing_repeats": 5,
+  "warmup_repeats": 1,
+  "physics_refinement_s": 0.01,
+  "bootstrap_resamples": 4000,
+  "optimization": "stop after first complete positive-clearance witness for steering-only minimum-modification control",
+  "preserved_contract": "same applied command and acceptance/rejection under exhaustive budget; complete witness required",
+  "changed_contract": "selected witness is not necessarily the maximum-clearance backup",
+  "scope": "post-R01 follow-up; desktop replay and synthetic physics refinement; no field validation"
+}

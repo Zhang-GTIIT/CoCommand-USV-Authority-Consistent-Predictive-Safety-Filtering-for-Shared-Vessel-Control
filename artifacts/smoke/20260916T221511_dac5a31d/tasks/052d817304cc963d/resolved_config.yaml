@@ -1,0 +1,29 @@
+{
+  "controller": {
+    "code": "C2",
+    "authority_mode": 1,
+    "sampling_mode": 1,
+    "horizon_mode": 1,
+    "margin_mode": 1,
+    "predictor_mode": 0,
+    "backup_library_mode": 0,
+    "selection_policy": 0
+  },
+  "scenario": {
+    "name": "open_water",
+    "obstacles": [],
+    "human_script": "gentle_sine"
+  },
+  "task": {
+    "experiment_id": "E00",
+    "tier": "smoke",
+    "controller": "steering_hold_contract",
+    "scenario": "S01",
+    "seed": 0,
+    "overrides": {},
+    "task_hash": "052d817304cc963d",
+    "code_fingerprint": "dac5a31dac754820"
+  },
+  "duration_s": 0.5,
+  "vessel": "synthetic_vessel_v1"
+}

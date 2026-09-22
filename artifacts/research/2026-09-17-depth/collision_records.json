@@ -1,0 +1,1402 @@
+[
+  {
+    "stage": "R05_closed",
+    "case_id": "crossing_000",
+    "variant": "limited_exhaustive",
+    "collision_time_s": 9.34,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.05474878729992916
+  },
+  {
+    "stage": "R05_closed",
+    "case_id": "crossing_000",
+    "variant": "limited_short",
+    "collision_time_s": 9.48,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.026336941274298864
+  },
+  {
+    "stage": "R05_closed",
+    "case_id": "crossing_001",
+    "variant": "limited_exhaustive",
+    "collision_time_s": 10.06,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.04631121971301766
+  },
+  {
+    "stage": "R05_closed",
+    "case_id": "crossing_001",
+    "variant": "limited_short",
+    "collision_time_s": 10.08,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.024236805046256138
+  },
+  {
+    "stage": "R05_closed",
+    "case_id": "crossing_003",
+    "variant": "limited_exhaustive",
+    "collision_time_s": 10.64,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.03864320137338584
+  },
+  {
+    "stage": "R05_closed",
+    "case_id": "crossing_003",
+    "variant": "limited_short",
+    "collision_time_s": 12.700000000000001,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.004095029743691914
+  },
+  {
+    "stage": "R05_closed",
+    "case_id": "crossing_004",
+    "variant": "limited_exhaustive",
+    "collision_time_s": 7.92,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.08656847669120793
+  },
+  {
+    "stage": "R05_closed",
+    "case_id": "crossing_004",
+    "variant": "limited_short",
+    "collision_time_s": 7.94,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.062291020727865076
+  },
+  {
+    "stage": "R05_closed",
+    "case_id": "crossing_005",
+    "variant": "limited_exhaustive",
+    "collision_time_s": 8.4,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.008716780911298239
+  },
+  {
+    "stage": "R05_closed",
+    "case_id": "crossing_005",
+    "variant": "limited_short",
+    "collision_time_s": 8.4,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.008716780911298239
+  },
+  {
+    "stage": "R05_closed",
+    "case_id": "crossing_006",
+    "variant": "limited_exhaustive",
+    "collision_time_s": 9.5,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.00566729884664019
+  },
+  {
+    "stage": "R05_closed",
+    "case_id": "crossing_006",
+    "variant": "limited_short",
+    "collision_time_s": 9.58,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.017097791334145462
+  },
+  {
+    "stage": "R05_closed",
+    "case_id": "late_high_throttle_000",
+    "variant": "limited_exhaustive",
+    "collision_time_s": 3.54,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.11354486763201155
+  },
+  {
+    "stage": "R05_closed",
+    "case_id": "late_high_throttle_000",
+    "variant": "limited_short",
+    "collision_time_s": 3.54,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.11354486763201155
+  },
+  {
+    "stage": "R05_closed",
+    "case_id": "late_high_throttle_001",
+    "variant": "limited_exhaustive",
+    "collision_time_s": 4.0,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.0015401299725782414
+  },
+  {
+    "stage": "R05_closed",
+    "case_id": "late_high_throttle_001",
+    "variant": "limited_short",
+    "collision_time_s": 4.0,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.0015401299725782414
+  },
+  {
+    "stage": "R05_closed",
+    "case_id": "late_high_throttle_002",
+    "variant": "limited_exhaustive",
+    "collision_time_s": 2.9800000000000004,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.05822118906711593
+  },
+  {
+    "stage": "R05_closed",
+    "case_id": "late_high_throttle_002",
+    "variant": "limited_short",
+    "collision_time_s": 2.9800000000000004,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.05822118906711593
+  },
+  {
+    "stage": "R05_closed",
+    "case_id": "late_high_throttle_003",
+    "variant": "limited_exhaustive",
+    "collision_time_s": 3.3400000000000003,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.10028827592103196
+  },
+  {
+    "stage": "R05_closed",
+    "case_id": "late_high_throttle_003",
+    "variant": "limited_short",
+    "collision_time_s": 3.3400000000000003,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.10028827592103196
+  },
+  {
+    "stage": "R05_closed",
+    "case_id": "late_high_throttle_004",
+    "variant": "limited_exhaustive",
+    "collision_time_s": 4.12,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.1473067040062881
+  },
+  {
+    "stage": "R05_closed",
+    "case_id": "late_high_throttle_004",
+    "variant": "limited_short",
+    "collision_time_s": 4.12,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.1473067040062881
+  },
+  {
+    "stage": "R05_closed",
+    "case_id": "late_high_throttle_005",
+    "variant": "limited_exhaustive",
+    "collision_time_s": 3.16,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.06304804486462323
+  },
+  {
+    "stage": "R05_closed",
+    "case_id": "late_high_throttle_005",
+    "variant": "limited_short",
+    "collision_time_s": 3.16,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.06304804486462323
+  },
+  {
+    "stage": "R05_closed",
+    "case_id": "late_high_throttle_006",
+    "variant": "limited_exhaustive",
+    "collision_time_s": 2.4800000000000004,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.05156020095822844
+  },
+  {
+    "stage": "R05_closed",
+    "case_id": "late_high_throttle_006",
+    "variant": "limited_short",
+    "collision_time_s": 2.4800000000000004,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.05156020095822844
+  },
+  {
+    "stage": "R05_closed",
+    "case_id": "late_high_throttle_007",
+    "variant": "limited_exhaustive",
+    "collision_time_s": 2.72,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.13378420163403593
+  },
+  {
+    "stage": "R05_closed",
+    "case_id": "late_high_throttle_007",
+    "variant": "limited_short",
+    "collision_time_s": 2.72,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.13378420163403593
+  },
+  {
+    "stage": "R05_closed",
+    "case_id": "late_high_throttle_008",
+    "variant": "limited_exhaustive",
+    "collision_time_s": 3.3000000000000003,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.010861060750719242
+  },
+  {
+    "stage": "R05_closed",
+    "case_id": "late_high_throttle_008",
+    "variant": "limited_short",
+    "collision_time_s": 3.3000000000000003,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.010861060750719242
+  },
+  {
+    "stage": "R05_closed",
+    "case_id": "late_high_throttle_009",
+    "variant": "limited_exhaustive",
+    "collision_time_s": 3.8000000000000003,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.024273366665490514
+  },
+  {
+    "stage": "R05_closed",
+    "case_id": "late_high_throttle_009",
+    "variant": "limited_short",
+    "collision_time_s": 3.8000000000000003,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.024273366665490514
+  },
+  {
+    "stage": "R05_closed",
+    "case_id": "static_006",
+    "variant": "limited_exhaustive",
+    "collision_time_s": 8.860000000000001,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.028273783701881383
+  },
+  {
+    "stage": "R05_closed",
+    "case_id": "static_007",
+    "variant": "limited_exhaustive",
+    "collision_time_s": 6.16,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.031973216985605624
+  },
+  {
+    "stage": "R05_closed",
+    "case_id": "static_007",
+    "variant": "limited_short",
+    "collision_time_s": 6.16,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.031973216985605624
+  },
+  {
+    "stage": "R05_closed",
+    "case_id": "static_008",
+    "variant": "limited_exhaustive",
+    "collision_time_s": 7.66,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.027272660826286876
+  },
+  {
+    "stage": "R05_closed",
+    "case_id": "static_008",
+    "variant": "limited_short",
+    "collision_time_s": 7.680000000000001,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.013984169603731944
+  },
+  {
+    "stage": "R05_closed",
+    "case_id": "static_009",
+    "variant": "limited_exhaustive",
+    "collision_time_s": 8.04,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.07170361418783289
+  },
+  {
+    "stage": "R05_closed",
+    "case_id": "static_009",
+    "variant": "limited_short",
+    "collision_time_s": 8.02,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.07562151276278156
+  },
+  {
+    "stage": "R06",
+    "case_id": "head_on_004",
+    "variant": "constrained",
+    "collision_time_s": 15.74,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.07169288698578213
+  },
+  {
+    "stage": "R06",
+    "case_id": "head_on_004",
+    "variant": "constrained_short",
+    "collision_time_s": 15.74,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.07169288698578213
+  },
+  {
+    "stage": "R06",
+    "case_id": "head_on_006",
+    "variant": "hypothetical",
+    "collision_time_s": 5.1,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.02555513136339549
+  },
+  {
+    "stage": "R06",
+    "case_id": "head_on_007",
+    "variant": "hypothetical",
+    "collision_time_s": 3.8000000000000003,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.011699626123028772
+  },
+  {
+    "stage": "R06",
+    "case_id": "head_on_009",
+    "variant": "hypothetical",
+    "collision_time_s": 3.9400000000000004,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.09162357588066927
+  },
+  {
+    "stage": "R06",
+    "case_id": "head_on_018",
+    "variant": "hypothetical",
+    "collision_time_s": 23.220000000000002,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.030417433062084664
+  },
+  {
+    "stage": "R06",
+    "case_id": "head_on_019",
+    "variant": "hypothetical",
+    "collision_time_s": 3.22,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.20697718731752313
+  },
+  {
+    "stage": "R06",
+    "case_id": "late_static_000",
+    "variant": "constrained",
+    "collision_time_s": 1.5000000000000002,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.018515002732884978
+  },
+  {
+    "stage": "R06",
+    "case_id": "late_static_000",
+    "variant": "constrained_short",
+    "collision_time_s": 1.5000000000000002,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.018515002732884978
+  },
+  {
+    "stage": "R06",
+    "case_id": "late_static_000",
+    "variant": "hypothetical",
+    "collision_time_s": 1.5000000000000002,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.010457716840158726
+  },
+  {
+    "stage": "R06",
+    "case_id": "late_static_001",
+    "variant": "constrained",
+    "collision_time_s": 1.2800000000000002,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.03913141856706959
+  },
+  {
+    "stage": "R06",
+    "case_id": "late_static_001",
+    "variant": "constrained_short",
+    "collision_time_s": 1.2800000000000002,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.03913141856706959
+  },
+  {
+    "stage": "R06",
+    "case_id": "late_static_001",
+    "variant": "hypothetical",
+    "collision_time_s": 1.2800000000000002,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.039010761146686224
+  },
+  {
+    "stage": "R06",
+    "case_id": "late_static_002",
+    "variant": "constrained",
+    "collision_time_s": 1.34,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.12407833609295871
+  },
+  {
+    "stage": "R06",
+    "case_id": "late_static_002",
+    "variant": "constrained_short",
+    "collision_time_s": 1.34,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.12407833609295871
+  },
+  {
+    "stage": "R06",
+    "case_id": "late_static_002",
+    "variant": "hypothetical",
+    "collision_time_s": 1.34,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.12424463966820287
+  },
+  {
+    "stage": "R06",
+    "case_id": "late_static_003",
+    "variant": "constrained",
+    "collision_time_s": 1.7000000000000002,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.010559392109679933
+  },
+  {
+    "stage": "R06",
+    "case_id": "late_static_003",
+    "variant": "constrained_short",
+    "collision_time_s": 1.7000000000000002,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.010559392109679933
+  },
+  {
+    "stage": "R06",
+    "case_id": "late_static_003",
+    "variant": "hypothetical",
+    "collision_time_s": 1.7200000000000002,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.15208588528881117
+  },
+  {
+    "stage": "R06",
+    "case_id": "late_static_004",
+    "variant": "constrained",
+    "collision_time_s": 1.2600000000000002,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.07132613011388067
+  },
+  {
+    "stage": "R06",
+    "case_id": "late_static_004",
+    "variant": "constrained_short",
+    "collision_time_s": 1.2600000000000002,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.07132613011388067
+  },
+  {
+    "stage": "R06",
+    "case_id": "late_static_004",
+    "variant": "hypothetical",
+    "collision_time_s": 1.2600000000000002,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.07146315582846807
+  },
+  {
+    "stage": "R06",
+    "case_id": "late_static_005",
+    "variant": "constrained",
+    "collision_time_s": 1.3800000000000001,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.06456606157593481
+  },
+  {
+    "stage": "R06",
+    "case_id": "late_static_005",
+    "variant": "constrained_short",
+    "collision_time_s": 1.3800000000000001,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.06456606157593481
+  },
+  {
+    "stage": "R06",
+    "case_id": "late_static_005",
+    "variant": "hypothetical",
+    "collision_time_s": 1.3800000000000001,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.06455605984662915
+  },
+  {
+    "stage": "R06",
+    "case_id": "late_static_006",
+    "variant": "constrained",
+    "collision_time_s": 1.6800000000000002,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.05523475165554881
+  },
+  {
+    "stage": "R06",
+    "case_id": "late_static_006",
+    "variant": "constrained_short",
+    "collision_time_s": 1.6800000000000002,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.05523475165554881
+  },
+  {
+    "stage": "R06",
+    "case_id": "late_static_006",
+    "variant": "hypothetical",
+    "collision_time_s": 1.6600000000000001,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.06792438312316051
+  },
+  {
+    "stage": "R06",
+    "case_id": "late_static_007",
+    "variant": "constrained",
+    "collision_time_s": 1.4400000000000002,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.10244043024462501
+  },
+  {
+    "stage": "R06",
+    "case_id": "late_static_007",
+    "variant": "constrained_short",
+    "collision_time_s": 1.4400000000000002,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.10244043024462501
+  },
+  {
+    "stage": "R06",
+    "case_id": "late_static_007",
+    "variant": "hypothetical",
+    "collision_time_s": 1.4600000000000002,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.08683997162822854
+  },
+  {
+    "stage": "R06",
+    "case_id": "late_static_008",
+    "variant": "constrained",
+    "collision_time_s": 1.4200000000000002,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.12638313760511632
+  },
+  {
+    "stage": "R06",
+    "case_id": "late_static_008",
+    "variant": "constrained_short",
+    "collision_time_s": 1.4200000000000002,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.12638313760511632
+  },
+  {
+    "stage": "R06",
+    "case_id": "late_static_008",
+    "variant": "hypothetical",
+    "collision_time_s": 1.4200000000000002,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.1303288042405395
+  },
+  {
+    "stage": "R06",
+    "case_id": "late_static_009",
+    "variant": "constrained",
+    "collision_time_s": 1.7000000000000002,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.00872603226653823
+  },
+  {
+    "stage": "R06",
+    "case_id": "late_static_009",
+    "variant": "constrained_short",
+    "collision_time_s": 1.7000000000000002,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.00872603226653823
+  },
+  {
+    "stage": "R06",
+    "case_id": "late_static_009",
+    "variant": "hypothetical",
+    "collision_time_s": 1.7000000000000002,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.006664304158364387
+  },
+  {
+    "stage": "R06",
+    "case_id": "late_static_010",
+    "variant": "constrained",
+    "collision_time_s": 1.7000000000000002,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.02292828099119082
+  },
+  {
+    "stage": "R06",
+    "case_id": "late_static_010",
+    "variant": "constrained_short",
+    "collision_time_s": 1.7000000000000002,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.02292828099119082
+  },
+  {
+    "stage": "R06",
+    "case_id": "late_static_010",
+    "variant": "hypothetical",
+    "collision_time_s": 1.7000000000000002,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.007718526744612042
+  },
+  {
+    "stage": "R06",
+    "case_id": "late_static_011",
+    "variant": "constrained",
+    "collision_time_s": 1.2200000000000002,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.11246592821023738
+  },
+  {
+    "stage": "R06",
+    "case_id": "late_static_011",
+    "variant": "constrained_short",
+    "collision_time_s": 1.2200000000000002,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.11246592821023738
+  },
+  {
+    "stage": "R06",
+    "case_id": "late_static_011",
+    "variant": "hypothetical",
+    "collision_time_s": 1.2200000000000002,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.12773715182674839
+  },
+  {
+    "stage": "R06",
+    "case_id": "late_static_012",
+    "variant": "constrained",
+    "collision_time_s": 0.96,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.09655216034291025
+  },
+  {
+    "stage": "R06",
+    "case_id": "late_static_012",
+    "variant": "constrained_short",
+    "collision_time_s": 0.96,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.09655216034291025
+  },
+  {
+    "stage": "R06",
+    "case_id": "late_static_012",
+    "variant": "hypothetical",
+    "collision_time_s": 0.96,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.0966994878699573
+  },
+  {
+    "stage": "R06",
+    "case_id": "late_static_013",
+    "variant": "constrained",
+    "collision_time_s": 1.7200000000000002,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.1410583506010198
+  },
+  {
+    "stage": "R06",
+    "case_id": "late_static_013",
+    "variant": "constrained_short",
+    "collision_time_s": 1.7200000000000002,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.1410583506010198
+  },
+  {
+    "stage": "R06",
+    "case_id": "late_static_013",
+    "variant": "hypothetical",
+    "collision_time_s": 1.7200000000000002,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.13960670871722736
+  },
+  {
+    "stage": "R06",
+    "case_id": "late_static_014",
+    "variant": "constrained",
+    "collision_time_s": 1.84,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.12674164458376114
+  },
+  {
+    "stage": "R06",
+    "case_id": "late_static_014",
+    "variant": "constrained_short",
+    "collision_time_s": 1.84,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.12674164458376114
+  },
+  {
+    "stage": "R06",
+    "case_id": "late_static_014",
+    "variant": "hypothetical",
+    "collision_time_s": 1.84,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.12308368154975102
+  },
+  {
+    "stage": "R06",
+    "case_id": "late_static_015",
+    "variant": "constrained",
+    "collision_time_s": 1.36,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.09328287242838773
+  },
+  {
+    "stage": "R06",
+    "case_id": "late_static_015",
+    "variant": "constrained_short",
+    "collision_time_s": 1.36,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.09328287242838773
+  },
+  {
+    "stage": "R06",
+    "case_id": "late_static_015",
+    "variant": "hypothetical",
+    "collision_time_s": 1.36,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.0934726481256195
+  },
+  {
+    "stage": "R06",
+    "case_id": "late_static_016",
+    "variant": "constrained",
+    "collision_time_s": 1.6,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.026393343744297804
+  },
+  {
+    "stage": "R06",
+    "case_id": "late_static_016",
+    "variant": "constrained_short",
+    "collision_time_s": 1.6,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.026393343744297804
+  },
+  {
+    "stage": "R06",
+    "case_id": "late_static_016",
+    "variant": "hypothetical",
+    "collision_time_s": 1.62,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.13898486713872482
+  },
+  {
+    "stage": "R06",
+    "case_id": "late_static_017",
+    "variant": "constrained",
+    "collision_time_s": 1.2800000000000002,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.04253809086670335
+  },
+  {
+    "stage": "R06",
+    "case_id": "late_static_017",
+    "variant": "constrained_short",
+    "collision_time_s": 1.2800000000000002,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.04253809086670335
+  },
+  {
+    "stage": "R06",
+    "case_id": "late_static_017",
+    "variant": "hypothetical",
+    "collision_time_s": 1.32,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.15580572403918713
+  },
+  {
+    "stage": "R06",
+    "case_id": "late_static_018",
+    "variant": "constrained",
+    "collision_time_s": 1.4800000000000002,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.05825427505164227
+  },
+  {
+    "stage": "R06",
+    "case_id": "late_static_018",
+    "variant": "constrained_short",
+    "collision_time_s": 1.4800000000000002,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.05825427505164227
+  },
+  {
+    "stage": "R06",
+    "case_id": "late_static_018",
+    "variant": "hypothetical",
+    "collision_time_s": 1.4800000000000002,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.0601094041166762
+  },
+  {
+    "stage": "R06",
+    "case_id": "late_static_019",
+    "variant": "constrained",
+    "collision_time_s": 1.58,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.049596331039197694
+  },
+  {
+    "stage": "R06",
+    "case_id": "late_static_019",
+    "variant": "constrained_short",
+    "collision_time_s": 1.58,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.049596331039197694
+  },
+  {
+    "stage": "R06",
+    "case_id": "late_static_019",
+    "variant": "hypothetical",
+    "collision_time_s": 1.6400000000000001,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.10068126973067182
+  },
+  {
+    "stage": "R06",
+    "case_id": "overtaking_001",
+    "variant": "hypothetical",
+    "collision_time_s": 4.66,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.03559189716049738
+  },
+  {
+    "stage": "R06",
+    "case_id": "overtaking_003",
+    "variant": "hypothetical",
+    "collision_time_s": 3.8800000000000003,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.029345759109273062
+  },
+  {
+    "stage": "R06",
+    "case_id": "overtaking_006",
+    "variant": "constrained",
+    "collision_time_s": 2.6,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.002465996840703588
+  },
+  {
+    "stage": "R06",
+    "case_id": "overtaking_006",
+    "variant": "constrained_short",
+    "collision_time_s": 2.6,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.002465996840703588
+  },
+  {
+    "stage": "R06",
+    "case_id": "overtaking_006",
+    "variant": "hypothetical",
+    "collision_time_s": 2.6,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.0020481311947601055
+  },
+  {
+    "stage": "R06",
+    "case_id": "overtaking_009",
+    "variant": "hypothetical",
+    "collision_time_s": 2.8800000000000003,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.02360898595557115
+  },
+  {
+    "stage": "R06",
+    "case_id": "overtaking_010",
+    "variant": "constrained",
+    "collision_time_s": 3.0000000000000004,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.0055423810910576465
+  },
+  {
+    "stage": "R06",
+    "case_id": "overtaking_010",
+    "variant": "constrained_short",
+    "collision_time_s": 3.0000000000000004,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.0055423810910576465
+  },
+  {
+    "stage": "R06",
+    "case_id": "overtaking_010",
+    "variant": "hypothetical",
+    "collision_time_s": 3.0000000000000004,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.002736673299773451
+  },
+  {
+    "stage": "R06",
+    "case_id": "overtaking_013",
+    "variant": "constrained",
+    "collision_time_s": 1.9400000000000002,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.07910910121359571
+  },
+  {
+    "stage": "R06",
+    "case_id": "overtaking_013",
+    "variant": "constrained_short",
+    "collision_time_s": 1.9400000000000002,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.07910910121359571
+  },
+  {
+    "stage": "R06",
+    "case_id": "overtaking_013",
+    "variant": "hypothetical",
+    "collision_time_s": 1.9400000000000002,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.09707197593321737
+  },
+  {
+    "stage": "R06",
+    "case_id": "overtaking_014",
+    "variant": "constrained",
+    "collision_time_s": 2.8800000000000003,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.027082352532401988
+  },
+  {
+    "stage": "R06",
+    "case_id": "overtaking_014",
+    "variant": "constrained_short",
+    "collision_time_s": 2.8800000000000003,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.027082352532401988
+  },
+  {
+    "stage": "R06",
+    "case_id": "overtaking_015",
+    "variant": "hypothetical",
+    "collision_time_s": 3.3600000000000003,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.060489782380404145
+  },
+  {
+    "stage": "R06",
+    "case_id": "overtaking_016",
+    "variant": "hypothetical",
+    "collision_time_s": 4.880000000000001,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.02212982957647147
+  },
+  {
+    "stage": "R06",
+    "case_id": "overtaking_017",
+    "variant": "hypothetical",
+    "collision_time_s": 5.92,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.08614318328831139
+  },
+  {
+    "stage": "R06",
+    "case_id": "overtaking_018",
+    "variant": "hypothetical",
+    "collision_time_s": 2.8000000000000003,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.011823799267830615
+  },
+  {
+    "stage": "R07",
+    "case_id": "crossing_001",
+    "variant": "feedback_hypothetical",
+    "collision_time_s": 10.82,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.004315172600423467
+  },
+  {
+    "stage": "R07",
+    "case_id": "crossing_003",
+    "variant": "feedback_constrained",
+    "collision_time_s": 21.220000000000002,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.0009105520621626173
+  },
+  {
+    "stage": "R07",
+    "case_id": "crossing_005",
+    "variant": "open_hypothetical",
+    "collision_time_s": 11.94,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.0029023250280869606
+  },
+  {
+    "stage": "R07",
+    "case_id": "crossing_006",
+    "variant": "feedback_constrained",
+    "collision_time_s": 35.220000000000006,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.009390422169195056
+  },
+  {
+    "stage": "R07",
+    "case_id": "crossing_006",
+    "variant": "feedback_hypothetical",
+    "collision_time_s": 8.88,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.017866849579373345
+  },
+  {
+    "stage": "R07",
+    "case_id": "crossing_006",
+    "variant": "open_hypothetical",
+    "collision_time_s": 13.160000000000002,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.0028015594228112395
+  },
+  {
+    "stage": "R07",
+    "case_id": "crossing_008",
+    "variant": "feedback_constrained",
+    "collision_time_s": 29.42,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.002594566488849148
+  },
+  {
+    "stage": "R07",
+    "case_id": "crossing_009",
+    "variant": "feedback_hypothetical",
+    "collision_time_s": 9.84,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.006302356922564756
+  },
+  {
+    "stage": "R07",
+    "case_id": "crossing_010",
+    "variant": "feedback_hypothetical",
+    "collision_time_s": 7.62,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.006218796085458611
+  },
+  {
+    "stage": "R07",
+    "case_id": "crossing_011",
+    "variant": "feedback_hypothetical",
+    "collision_time_s": 6.6,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.01533843411095659
+  },
+  {
+    "stage": "R07",
+    "case_id": "crossing_011",
+    "variant": "open_hypothetical",
+    "collision_time_s": 6.54,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.005051400626916669
+  },
+  {
+    "stage": "R07",
+    "case_id": "crossing_012",
+    "variant": "feedback_hypothetical",
+    "collision_time_s": 8.04,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.00474599190387659
+  },
+  {
+    "stage": "R07",
+    "case_id": "crossing_014",
+    "variant": "feedback_hypothetical",
+    "collision_time_s": 7.36,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.009357259422132724
+  },
+  {
+    "stage": "R07",
+    "case_id": "crossing_016",
+    "variant": "feedback_hypothetical",
+    "collision_time_s": 7.3,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.015518247850994649
+  },
+  {
+    "stage": "R07",
+    "case_id": "crossing_016",
+    "variant": "open_hypothetical",
+    "collision_time_s": 10.52,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.0015596003219200405
+  },
+  {
+    "stage": "R07",
+    "case_id": "crossing_017",
+    "variant": "feedback_constrained",
+    "collision_time_s": 28.14,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.005501355324842416
+  },
+  {
+    "stage": "R07",
+    "case_id": "crossing_019",
+    "variant": "feedback_constrained",
+    "collision_time_s": 18.500000000000004,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.003391738446573922
+  },
+  {
+    "stage": "R07",
+    "case_id": "crossing_019",
+    "variant": "open_hypothetical",
+    "collision_time_s": 10.8,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.002843892571454565
+  },
+  {
+    "stage": "R07",
+    "case_id": "late_high_throttle_000",
+    "variant": "feedback_hypothetical",
+    "collision_time_s": 3.54,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.011537953143860302
+  },
+  {
+    "stage": "R07",
+    "case_id": "late_high_throttle_002",
+    "variant": "feedback_hypothetical",
+    "collision_time_s": 2.9800000000000004,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.013926984173323609
+  },
+  {
+    "stage": "R07",
+    "case_id": "late_high_throttle_002",
+    "variant": "open_hypothetical",
+    "collision_time_s": 2.9800000000000004,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.014154673504878312
+  },
+  {
+    "stage": "R07",
+    "case_id": "late_high_throttle_004",
+    "variant": "feedback_hypothetical",
+    "collision_time_s": 4.12,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.02639267590381289
+  },
+  {
+    "stage": "R07",
+    "case_id": "late_high_throttle_005",
+    "variant": "feedback_hypothetical",
+    "collision_time_s": 3.18,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.0272794411668974
+  },
+  {
+    "stage": "R07",
+    "case_id": "late_high_throttle_005",
+    "variant": "open_hypothetical",
+    "collision_time_s": 3.16,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.0002325337291356755
+  },
+  {
+    "stage": "R07",
+    "case_id": "late_high_throttle_006",
+    "variant": "feedback_hypothetical",
+    "collision_time_s": 2.5000000000000004,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.004223445533899528
+  },
+  {
+    "stage": "R07",
+    "case_id": "late_high_throttle_006",
+    "variant": "open_hypothetical",
+    "collision_time_s": 2.5000000000000004,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.004559666715393873
+  },
+  {
+    "stage": "R07",
+    "case_id": "late_high_throttle_007",
+    "variant": "feedback_hypothetical",
+    "collision_time_s": 2.72,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.013435511807033396
+  },
+  {
+    "stage": "R07",
+    "case_id": "late_high_throttle_007",
+    "variant": "open_hypothetical",
+    "collision_time_s": 2.72,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.012230715049357355
+  },
+  {
+    "stage": "R07",
+    "case_id": "late_high_throttle_008",
+    "variant": "open_hypothetical",
+    "collision_time_s": 3.3200000000000003,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.023097689006638555
+  },
+  {
+    "stage": "R07",
+    "case_id": "late_high_throttle_010",
+    "variant": "open_hypothetical",
+    "collision_time_s": 3.68,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.02464046134683373
+  },
+  {
+    "stage": "R07",
+    "case_id": "late_high_throttle_011",
+    "variant": "feedback_hypothetical",
+    "collision_time_s": 2.8200000000000003,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.011351516442036469
+  },
+  {
+    "stage": "R07",
+    "case_id": "late_high_throttle_011",
+    "variant": "open_hypothetical",
+    "collision_time_s": 2.8200000000000003,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.004461768550027112
+  },
+  {
+    "stage": "R07",
+    "case_id": "late_high_throttle_012",
+    "variant": "feedback_hypothetical",
+    "collision_time_s": 3.02,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.00019482138795345882
+  },
+  {
+    "stage": "R07",
+    "case_id": "static_000",
+    "variant": "feedback_hypothetical",
+    "collision_time_s": 9.12,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.0020772732076947964
+  },
+  {
+    "stage": "R07",
+    "case_id": "static_002",
+    "variant": "feedback_hypothetical",
+    "collision_time_s": 8.12,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.0036807555385601765
+  },
+  {
+    "stage": "R07",
+    "case_id": "static_003",
+    "variant": "feedback_hypothetical",
+    "collision_time_s": 8.56,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.0016530264956721163
+  },
+  {
+    "stage": "R07",
+    "case_id": "static_004",
+    "variant": "feedback_hypothetical",
+    "collision_time_s": 10.06,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.0059125679997661384
+  },
+  {
+    "stage": "R07",
+    "case_id": "static_005",
+    "variant": "feedback_hypothetical",
+    "collision_time_s": 10.84,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.004252423253446991
+  },
+  {
+    "stage": "R07",
+    "case_id": "static_006",
+    "variant": "feedback_hypothetical",
+    "collision_time_s": 8.7,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.014510288421758055
+  },
+  {
+    "stage": "R07",
+    "case_id": "static_008",
+    "variant": "feedback_hypothetical",
+    "collision_time_s": 7.48,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.0031337637888187997
+  },
+  {
+    "stage": "R07",
+    "case_id": "static_009",
+    "variant": "feedback_hypothetical",
+    "collision_time_s": 8.1,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.007432913886194381
+  },
+  {
+    "stage": "R07",
+    "case_id": "static_010",
+    "variant": "feedback_hypothetical",
+    "collision_time_s": 8.94,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.0017515657819363595
+  },
+  {
+    "stage": "R07",
+    "case_id": "static_012",
+    "variant": "feedback_hypothetical",
+    "collision_time_s": 8.04,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.01382210942996176
+  },
+  {
+    "stage": "R07",
+    "case_id": "static_012",
+    "variant": "open_hypothetical",
+    "collision_time_s": 8.24,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.01608702442001697
+  },
+  {
+    "stage": "R07",
+    "case_id": "static_013",
+    "variant": "feedback_hypothetical",
+    "collision_time_s": 7.78,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.011710127234971335
+  },
+  {
+    "stage": "R07",
+    "case_id": "static_013",
+    "variant": "open_hypothetical",
+    "collision_time_s": 7.8,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.00967630983871648
+  },
+  {
+    "stage": "R07",
+    "case_id": "static_014",
+    "variant": "feedback_hypothetical",
+    "collision_time_s": 6.46,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.00019452818507348368
+  },
+  {
+    "stage": "R07",
+    "case_id": "static_014",
+    "variant": "open_hypothetical",
+    "collision_time_s": 6.48,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.01791035104178751
+  },
+  {
+    "stage": "R07",
+    "case_id": "static_015",
+    "variant": "feedback_hypothetical",
+    "collision_time_s": 7.5,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.012438914676621171
+  },
+  {
+    "stage": "R07",
+    "case_id": "static_018",
+    "variant": "feedback_hypothetical",
+    "collision_time_s": 7.880000000000001,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.015557947640778114
+  },
+  {
+    "stage": "R07",
+    "case_id": "static_019",
+    "variant": "feedback_hypothetical",
+    "collision_time_s": 10.160000000000002,
+    "terminal_outcome": "exhausted_no_witness",
+    "terminal_clearance_m": -0.00020983008497654776
+  }
+]

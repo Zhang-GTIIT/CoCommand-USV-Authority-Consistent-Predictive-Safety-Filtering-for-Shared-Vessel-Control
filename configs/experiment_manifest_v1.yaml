@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "id": "experiment_manifest_v1_derived",
+  "source_status": "derived_from_EXPERIMENT_PLAN_V1_missing_supplied_manifest",
+  "seed_ranges": {"smoke": [0, 2], "pilot": [0, 20], "calibration": [100, 120], "main": [1000, 1100], "stress": [2000, 2050]},
+  "experiments": {
+    "E00": {"kind": "software_gate", "controllers": ["steering_hold_contract", "enhanced_steering"], "scenarios": ["S01", "S02"], "axes": {}},
+    "E01": {"kind": "main_comparison", "controllers": ["unfiltered_human", "paper_hypothetical", "steering_hold_contract", "frozen_command_steering", "largest_clearance_steering", "enhanced_steering", "predictive_optimizer_adapted", "goal_agnostic_sampling_adapted"], "scenarios": ["S01", "S02", "S04", "S05", "S06", "S07", "S09", "S11"], "axes": {}},
+    "E02": {"kind": "authority", "controllers": ["paper_hypothetical", "steering_hold_contract", "emergency_authority", "full_command_weighted"], "scenarios": ["S02", "S04", "S11"], "axes": {"human_script": ["straight", "throttle_change"]}},
+    "E03": {"kind": "perception_geometry_ablation", "controllers": ["paper_hypothetical"], "scenarios": ["S02", "S04", "S08", "S10"], "axes": {"ablation": ["none", "no_track_memory", "no_uncertainty_radius", "no_sweep_margin"]}},
+    "E04": {"kind": "candidate_sampling", "controllers": ["enhanced_steering"], "scenarios": ["S04", "S07"], "axes": {"sampling_mode": [0, 1, 2, 3, 4], "budget_basis": ["candidate_count", "wall_clock"]}},
+    "E05": {"kind": "horizon", "controllers": ["enhanced_steering"], "scenarios": ["S02", "S04", "S11", "S12"], "axes": {"horizon_s": [2.0, 4.0, 6.0, 8.0, 10.0, 10.1, "adaptive_guarded"]}},
+    "E06": {"kind": "uncertainty_margin", "controllers": ["enhanced_steering"], "scenarios": ["S04", "S08", "S10"], "axes": {"margin_mode": ["fixed", "paper", "covariance"], "alpha": [0.1, 0.05, 0.01]}},
+    "E07": {"kind": "predictor", "controllers": ["enhanced_steering"], "scenarios": ["S04"], "axes": {"predictor_mode": [0, 1, 2, 3], "motion": ["constant_velocity", "acceleration", "coordinated_turn"]}},
+    "E08": {"kind": "backup_library", "controllers": ["steering_hold_contract", "emergency_authority"], "scenarios": ["S02", "S04", "S07", "S11"], "axes": {"backup_library_mode": [0, 1, 2]}},
+    "E09": {"kind": "frozen_snapshot_nesting", "controllers": ["enhanced_steering"], "scenarios": ["S02", "S04", "S07"], "axes": {"branch_budget": [768, 1500, 3000, 10000]}},
+    "E10": {"kind": "deadline_scaling", "controllers": ["enhanced_steering"], "scenarios": ["S04", "S07", "S10"], "axes": {"planning_budget_ms": [20, 40, 60, 80], "target_count": [1, 5, 10, 20, 40]}},
+    "E11": {"kind": "model_mismatch", "controllers": ["steering_hold_contract", "enhanced_steering"], "scenarios": ["S02", "S04", "S11"], "axes": {"mismatch_factor": [0.8, 1.0, 1.2], "actuator_tau_factor": [1.0, 1.5, 2.0], "delay_ms": [0, 50, 100, 200]}},
+    "H01": {"kind": "orangepi_progression", "controllers": ["enhanced_steering"], "scenarios": ["S01", "S02"], "axes": {"stage": ["build_mock", "board_replay", "processor_in_loop", "bench_pending", "field_pending"]}},
+    "H02": {"kind": "human_study_plan", "controllers": ["steering_hold_contract", "enhanced_steering"], "scenarios": ["S01", "S02", "S04"], "axes": {"status": ["protocol_only_ethics_pending"]}}
+  }
+}
+

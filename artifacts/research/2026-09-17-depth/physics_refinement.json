@@ -1,0 +1,881 @@
+{
+  "provenance": {
+    "protocol": "post-analysis numerical sensitivity; every R07 feedback case, both filters; no retuning",
+    "physics_step_s": 0.01,
+    "source_manifest_sha256": "cc06f46972f85d03054f86d0c0151df2a621bf82d1d07620cf75f7c7c65097c2",
+    "source_fingerprint": "42881402c170e6b0",
+    "native_sha256": "135977e324509ad3b32360ddf4015ad4b041e10176788651edc9556e58e56073",
+    "runner_sha256": "24d7f4ec7734029fb1dd7807cea1f88ac4bc751eb1e69495e4f2fdd7c52e5fcd"
+  },
+  "summary": {
+    "feedback_hypothetical": {
+      "trials": 60,
+      "goals": 29,
+      "collisions": 31,
+      "timeouts": 0,
+      "goal_classification_changes": 0,
+      "collision_classification_changes": 0,
+      "max_absolute_minimum_clearance_change_m": 0.019110775244276956,
+      "max_goal_time_change_common_successes_s": 0.22999999999999865
+    },
+    "feedback_constrained": {
+      "trials": 60,
+      "goals": 52,
+      "collisions": 4,
+      "timeouts": 4,
+      "goal_classification_changes": 0,
+      "collision_classification_changes": 3,
+      "max_absolute_minimum_clearance_change_m": 1.314184396341848,
+      "max_goal_time_change_common_successes_s": 1.7200000000000024
+    }
+  },
+  "paired_records": [
+    {
+      "case": "crossing_000",
+      "variant": "feedback_constrained",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 0.0013637124991539018
+    },
+    {
+      "case": "crossing_000",
+      "variant": "feedback_hypothetical",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 7.537604202312309e-05
+    },
+    {
+      "case": "crossing_001",
+      "variant": "feedback_constrained",
+      "goal_changed": false,
+      "collision_changed": true,
+      "minimum_clearance_change_m": 1.0707356536196881
+    },
+    {
+      "case": "crossing_001",
+      "variant": "feedback_hypothetical",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 1.9409295102246205e-06
+    },
+    {
+      "case": "crossing_002",
+      "variant": "feedback_constrained",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 0.024982767763088276
+    },
+    {
+      "case": "crossing_002",
+      "variant": "feedback_hypothetical",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 4.6092779163786624e-05
+    },
+    {
+      "case": "crossing_003",
+      "variant": "feedback_constrained",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 0.005576069068860656
+    },
+    {
+      "case": "crossing_003",
+      "variant": "feedback_hypothetical",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 4.516645342045322e-05
+    },
+    {
+      "case": "crossing_004",
+      "variant": "feedback_constrained",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 0.01913303652591014
+    },
+    {
+      "case": "crossing_004",
+      "variant": "feedback_hypothetical",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 6.335234098409082e-05
+    },
+    {
+      "case": "crossing_005",
+      "variant": "feedback_constrained",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 1.8053792647299005e-05
+    },
+    {
+      "case": "crossing_005",
+      "variant": "feedback_hypothetical",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 5.584135298608572e-07
+    },
+    {
+      "case": "crossing_006",
+      "variant": "feedback_constrained",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 0.0033670207195545254
+    },
+    {
+      "case": "crossing_006",
+      "variant": "feedback_hypothetical",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 0.010740232176737363
+    },
+    {
+      "case": "crossing_007",
+      "variant": "feedback_constrained",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 2.726647606854371e-05
+    },
+    {
+      "case": "crossing_007",
+      "variant": "feedback_hypothetical",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 2.98616770084692e-05
+    },
+    {
+      "case": "crossing_008",
+      "variant": "feedback_constrained",
+      "goal_changed": false,
+      "collision_changed": true,
+      "minimum_clearance_change_m": 1.314184396341848
+    },
+    {
+      "case": "crossing_008",
+      "variant": "feedback_hypothetical",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 2.7926529835298197e-06
+    },
+    {
+      "case": "crossing_009",
+      "variant": "feedback_constrained",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 6.123728817764018e-05
+    },
+    {
+      "case": "crossing_009",
+      "variant": "feedback_hypothetical",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 2.3821143109170606e-06
+    },
+    {
+      "case": "crossing_010",
+      "variant": "feedback_constrained",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 0.09453301002885972
+    },
+    {
+      "case": "crossing_010",
+      "variant": "feedback_hypothetical",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 2.926101871159048e-05
+    },
+    {
+      "case": "crossing_011",
+      "variant": "feedback_constrained",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 0.11184788091247633
+    },
+    {
+      "case": "crossing_011",
+      "variant": "feedback_hypothetical",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 0.009292706407015183
+    },
+    {
+      "case": "crossing_012",
+      "variant": "feedback_constrained",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 0.016993261468469356
+    },
+    {
+      "case": "crossing_012",
+      "variant": "feedback_hypothetical",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 0.0034419973523275305
+    },
+    {
+      "case": "crossing_013",
+      "variant": "feedback_constrained",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 0.00015750430391436865
+    },
+    {
+      "case": "crossing_013",
+      "variant": "feedback_hypothetical",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 8.601662970320056e-05
+    },
+    {
+      "case": "crossing_014",
+      "variant": "feedback_constrained",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 0.07968782810902697
+    },
+    {
+      "case": "crossing_014",
+      "variant": "feedback_hypothetical",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 0.007842259818571118
+    },
+    {
+      "case": "crossing_015",
+      "variant": "feedback_constrained",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 0.0035216808522546827
+    },
+    {
+      "case": "crossing_015",
+      "variant": "feedback_hypothetical",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 4.216610394625064e-06
+    },
+    {
+      "case": "crossing_016",
+      "variant": "feedback_constrained",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 0.0008462260891390905
+    },
+    {
+      "case": "crossing_016",
+      "variant": "feedback_hypothetical",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 0.011365689699509907
+    },
+    {
+      "case": "crossing_017",
+      "variant": "feedback_constrained",
+      "goal_changed": false,
+      "collision_changed": true,
+      "minimum_clearance_change_m": 1.1631624447905875
+    },
+    {
+      "case": "crossing_017",
+      "variant": "feedback_hypothetical",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 8.715691682592563e-06
+    },
+    {
+      "case": "crossing_018",
+      "variant": "feedback_constrained",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 0.13190272143112924
+    },
+    {
+      "case": "crossing_018",
+      "variant": "feedback_hypothetical",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 8.170619929970258e-06
+    },
+    {
+      "case": "crossing_019",
+      "variant": "feedback_constrained",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 2.3222339717188234e-05
+    },
+    {
+      "case": "crossing_019",
+      "variant": "feedback_hypothetical",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 1.3833518784367449e-05
+    },
+    {
+      "case": "late_high_throttle_000",
+      "variant": "feedback_constrained",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 4.221179009444853e-06
+    },
+    {
+      "case": "late_high_throttle_000",
+      "variant": "feedback_hypothetical",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 5.345022533465027e-07
+    },
+    {
+      "case": "late_high_throttle_001",
+      "variant": "feedback_constrained",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 4.715780545172521e-06
+    },
+    {
+      "case": "late_high_throttle_001",
+      "variant": "feedback_hypothetical",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 3.651061663889621e-06
+    },
+    {
+      "case": "late_high_throttle_002",
+      "variant": "feedback_constrained",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 4.320898854759392e-05
+    },
+    {
+      "case": "late_high_throttle_002",
+      "variant": "feedback_hypothetical",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 1.0457661225871107e-06
+    },
+    {
+      "case": "late_high_throttle_003",
+      "variant": "feedback_constrained",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 8.476875346508095e-05
+    },
+    {
+      "case": "late_high_throttle_003",
+      "variant": "feedback_hypothetical",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 2.594999576643886e-05
+    },
+    {
+      "case": "late_high_throttle_004",
+      "variant": "feedback_constrained",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 2.438900961099222e-05
+    },
+    {
+      "case": "late_high_throttle_004",
+      "variant": "feedback_hypothetical",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 0.015414460217249015
+    },
+    {
+      "case": "late_high_throttle_005",
+      "variant": "feedback_constrained",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 3.302782395930848e-05
+    },
+    {
+      "case": "late_high_throttle_005",
+      "variant": "feedback_hypothetical",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 0.01497569417438993
+    },
+    {
+      "case": "late_high_throttle_006",
+      "variant": "feedback_constrained",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 9.725395536985815e-05
+    },
+    {
+      "case": "late_high_throttle_006",
+      "variant": "feedback_hypothetical",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 4.544910792159129e-07
+    },
+    {
+      "case": "late_high_throttle_007",
+      "variant": "feedback_constrained",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 2.8579267741690728e-05
+    },
+    {
+      "case": "late_high_throttle_007",
+      "variant": "feedback_hypothetical",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 1.2325805087698427e-07
+    },
+    {
+      "case": "late_high_throttle_008",
+      "variant": "feedback_constrained",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 2.6900465792678574e-06
+    },
+    {
+      "case": "late_high_throttle_008",
+      "variant": "feedback_hypothetical",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 2.7038731999606824e-05
+    },
+    {
+      "case": "late_high_throttle_009",
+      "variant": "feedback_constrained",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 7.356287619897373e-05
+    },
+    {
+      "case": "late_high_throttle_009",
+      "variant": "feedback_hypothetical",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 9.98713797553119e-05
+    },
+    {
+      "case": "late_high_throttle_010",
+      "variant": "feedback_constrained",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 1.1106799055582428e-05
+    },
+    {
+      "case": "late_high_throttle_010",
+      "variant": "feedback_hypothetical",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 3.242352926013936e-05
+    },
+    {
+      "case": "late_high_throttle_011",
+      "variant": "feedback_constrained",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 0.0022999522697371155
+    },
+    {
+      "case": "late_high_throttle_011",
+      "variant": "feedback_hypothetical",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 7.181919920995483e-07
+    },
+    {
+      "case": "late_high_throttle_012",
+      "variant": "feedback_constrained",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 9.978099751783986e-06
+    },
+    {
+      "case": "late_high_throttle_012",
+      "variant": "feedback_hypothetical",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 8.022832747034414e-07
+    },
+    {
+      "case": "late_high_throttle_013",
+      "variant": "feedback_constrained",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 4.7591037266592195e-06
+    },
+    {
+      "case": "late_high_throttle_013",
+      "variant": "feedback_hypothetical",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 1.1869736545211396e-05
+    },
+    {
+      "case": "late_high_throttle_014",
+      "variant": "feedback_constrained",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 1.9259503177604387e-05
+    },
+    {
+      "case": "late_high_throttle_014",
+      "variant": "feedback_hypothetical",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 1.7672275207658572e-06
+    },
+    {
+      "case": "late_high_throttle_015",
+      "variant": "feedback_constrained",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 9.42511071677643e-06
+    },
+    {
+      "case": "late_high_throttle_015",
+      "variant": "feedback_hypothetical",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 5.22704149201747e-05
+    },
+    {
+      "case": "late_high_throttle_016",
+      "variant": "feedback_constrained",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 4.502818743579162e-05
+    },
+    {
+      "case": "late_high_throttle_016",
+      "variant": "feedback_hypothetical",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 1.51166549766657e-06
+    },
+    {
+      "case": "late_high_throttle_017",
+      "variant": "feedback_constrained",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 5.3937107779233884e-05
+    },
+    {
+      "case": "late_high_throttle_017",
+      "variant": "feedback_hypothetical",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 1.9364322454418215e-06
+    },
+    {
+      "case": "late_high_throttle_018",
+      "variant": "feedback_constrained",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 0.00013530006191508903
+    },
+    {
+      "case": "late_high_throttle_018",
+      "variant": "feedback_hypothetical",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 0.00014499191381345256
+    },
+    {
+      "case": "late_high_throttle_019",
+      "variant": "feedback_constrained",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 1.1619410035024202e-05
+    },
+    {
+      "case": "late_high_throttle_019",
+      "variant": "feedback_hypothetical",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 0.019110775244276956
+    },
+    {
+      "case": "static_000",
+      "variant": "feedback_constrained",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 2.16235357153316e-05
+    },
+    {
+      "case": "static_000",
+      "variant": "feedback_hypothetical",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 6.656777734814767e-06
+    },
+    {
+      "case": "static_001",
+      "variant": "feedback_constrained",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 1.8442511372285253e-05
+    },
+    {
+      "case": "static_001",
+      "variant": "feedback_hypothetical",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 1.3862033338973845e-06
+    },
+    {
+      "case": "static_002",
+      "variant": "feedback_constrained",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 5.4408322285315336e-05
+    },
+    {
+      "case": "static_002",
+      "variant": "feedback_hypothetical",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 1.6259033150944902e-06
+    },
+    {
+      "case": "static_003",
+      "variant": "feedback_constrained",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 4.205503548115885e-05
+    },
+    {
+      "case": "static_003",
+      "variant": "feedback_hypothetical",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 4.734539498119084e-06
+    },
+    {
+      "case": "static_004",
+      "variant": "feedback_constrained",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 2.7514980537546307e-05
+    },
+    {
+      "case": "static_004",
+      "variant": "feedback_hypothetical",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 2.1216021622860737e-06
+    },
+    {
+      "case": "static_005",
+      "variant": "feedback_constrained",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 1.4431183117391555e-05
+    },
+    {
+      "case": "static_005",
+      "variant": "feedback_hypothetical",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 7.144286473526051e-08
+    },
+    {
+      "case": "static_006",
+      "variant": "feedback_constrained",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 4.7501129031957134e-05
+    },
+    {
+      "case": "static_006",
+      "variant": "feedback_hypothetical",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 0.00893303892869346
+    },
+    {
+      "case": "static_007",
+      "variant": "feedback_constrained",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 2.6421054870606753e-05
+    },
+    {
+      "case": "static_007",
+      "variant": "feedback_hypothetical",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 8.320764903524402e-05
+    },
+    {
+      "case": "static_008",
+      "variant": "feedback_constrained",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 1.1176667511492155e-06
+    },
+    {
+      "case": "static_008",
+      "variant": "feedback_hypothetical",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 1.516012239843878e-05
+    },
+    {
+      "case": "static_009",
+      "variant": "feedback_constrained",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 0.00014275275760766704
+    },
+    {
+      "case": "static_009",
+      "variant": "feedback_hypothetical",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 1.800605557988888e-06
+    },
+    {
+      "case": "static_010",
+      "variant": "feedback_constrained",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 9.930255466050752e-05
+    },
+    {
+      "case": "static_010",
+      "variant": "feedback_hypothetical",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 0.0031285583382476556
+    },
+    {
+      "case": "static_011",
+      "variant": "feedback_constrained",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 1.1415538351933208e-05
+    },
+    {
+      "case": "static_011",
+      "variant": "feedback_hypothetical",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 4.962354302584515e-06
+    },
+    {
+      "case": "static_012",
+      "variant": "feedback_constrained",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 6.700232334289069e-06
+    },
+    {
+      "case": "static_012",
+      "variant": "feedback_hypothetical",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 0.010052581923580606
+    },
+    {
+      "case": "static_013",
+      "variant": "feedback_constrained",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 5.319644367673959e-06
+    },
+    {
+      "case": "static_013",
+      "variant": "feedback_hypothetical",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 0.010861854232975476
+    },
+    {
+      "case": "static_014",
+      "variant": "feedback_constrained",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 6.214507045076978e-05
+    },
+    {
+      "case": "static_014",
+      "variant": "feedback_hypothetical",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 1.5160146198622826e-05
+    },
+    {
+      "case": "static_015",
+      "variant": "feedback_constrained",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 1.5593159484961205e-05
+    },
+    {
+      "case": "static_015",
+      "variant": "feedback_hypothetical",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 0.010722725600413208
+    },
+    {
+      "case": "static_016",
+      "variant": "feedback_constrained",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 2.8586272500241705e-06
+    },
+    {
+      "case": "static_016",
+      "variant": "feedback_hypothetical",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 2.4258692360445977e-05
+    },
+    {
+      "case": "static_017",
+      "variant": "feedback_constrained",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 7.875535588697247e-05
+    },
+    {
+      "case": "static_017",
+      "variant": "feedback_hypothetical",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 1.2432856437594175e-05
+    },
+    {
+      "case": "static_018",
+      "variant": "feedback_constrained",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 9.80882785661663e-07
+    },
+    {
+      "case": "static_018",
+      "variant": "feedback_hypothetical",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 0.011322630193077776
+    },
+    {
+      "case": "static_019",
+      "variant": "feedback_constrained",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 0.00010812748967259367
+    },
+    {
+      "case": "static_019",
+      "variant": "feedback_hypothetical",
+      "goal_changed": false,
+      "collision_changed": false,
+      "minimum_clearance_change_m": 4.657902196392172e-06
+    }
+  ],
+  "record_audit": {
+    "trials": 120,
+    "cycles": 18185,
+    "invalid_accepted_witnesses": 0,
+    "throttle_violations": 0,
+    "execution_failures": 0
+  }
+}

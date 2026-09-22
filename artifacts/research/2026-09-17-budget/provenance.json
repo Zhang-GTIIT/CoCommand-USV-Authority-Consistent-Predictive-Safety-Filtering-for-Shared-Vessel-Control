@@ -1,0 +1,69 @@
+{
+  "manifest": {
+    "protocol": {
+      "study_id": "budget_allocation_v1",
+      "generator_seed": 220260917,
+      "cases_per_family": 20,
+      "source_protocol": "configs/studies/resume_evidence_v1.yaml",
+      "diagnostic_source": "runs/depth_validation_v1/R05_closed",
+      "open_duration_s": 20.0,
+      "feedback_duration_s": 40.0,
+      "physics_step_s": 0.02,
+      "step_budgets": [
+        512,
+        2048,
+        2000000
+      ],
+      "primary_budget": 512,
+      "policies": {
+        "u2_exhaustive": {
+          "sampling_mode": 1,
+          "first_complete_witness": false
+        },
+        "u2_first": {
+          "sampling_mode": 1,
+          "first_complete_witness": true
+        },
+        "u4_first": {
+          "sampling_mode": 0,
+          "first_complete_witness": true
+        }
+      },
+      "feedback_variants": [
+        "u2_first_b512",
+        "u4_first_b512",
+        "u2_first_b2048",
+        "u4_first_b2048",
+        "u2_first_b2000000"
+      ],
+      "mission_goal": {
+        "position": [
+          8.0,
+          0.0
+        ],
+        "radius_m": 1.5
+      },
+      "heading_feedback": {
+        "heading_gain": 1.6,
+        "yaw_rate_gain": 1.8,
+        "max_steering_deg": 30.0
+      },
+      "bootstrap_resamples": 4000,
+      "primary_contrast": [
+        "u2_first_b512",
+        "u4_first_b512"
+      ],
+      "scope": "fresh synthetic draws from the original three encounter distributions; no hardware; exploratory conditional evidence"
+    },
+    "source_fingerprint": "dd7f17fad0198b2b",
+    "native_sha256": "135977e324509ad3b32360ddf4015ad4b041e10176788651edc9556e58e56073",
+    "diagnostic_parent_manifest_sha256": "cc06f46972f85d03054f86d0c0151df2a621bf82d1d07620cf75f7c7c65097c2"
+  },
+  "files_sha256": {
+    "source_snapshot.zip": "d610e75d06c6333db82a7b5df9bc4c24eefc0a3d6af6d0a80ce86c72b92a9d56",
+    "native.dll": "135977e324509ad3b32360ddf4015ad4b041e10176788651edc9556e58e56073",
+    "cases.json": "4b11ca2f45503ff20868c42c5018ce1631e17ad1c1c8ced3b4cbbb0681069133",
+    "diagnosis.json": "8a5e079a230bb5465c299a38d4ac2ea0539bd9d6ab49d4c09e472d747e87cb62"
+  },
+  "report_generator_sha256": "026cf2d276f0753bdf91bb2ef44813ba2d4eb64e4bf92749c333cd6a0ccc6532"
+}

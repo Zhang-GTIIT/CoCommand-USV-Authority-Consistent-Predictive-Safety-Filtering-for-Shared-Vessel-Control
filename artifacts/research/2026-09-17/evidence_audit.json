@@ -1,0 +1,11 @@
+{
+  "primary_cases_90": true,
+  "primary_rollouts_180": true,
+  "zero_authority_output_violations": true,
+  "zero_unknown_trials": true,
+  "all_replay_commands_match": true,
+  "original_replay_matches_r01": true,
+  "all_accepted_witnesses_complete": true,
+  "timing_repeats_consistent": true,
+  "physics_refinement_complete": true
+}

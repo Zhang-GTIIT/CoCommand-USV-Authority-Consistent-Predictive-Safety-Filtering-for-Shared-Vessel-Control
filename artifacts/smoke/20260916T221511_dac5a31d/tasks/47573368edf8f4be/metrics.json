@@ -1,0 +1,23 @@
+{
+  "label": "software_smoke_synthetic_simulation",
+  "sample_count_cycles": 5,
+  "observed_duration_s": 0.5,
+  "collision": false,
+  "first_collision_time_s": null,
+  "minimum_true_hull_clearance_m": 10.10000000000001,
+  "minimum_planning_clearance_m": 5.460369628555286,
+  "pass_through_rate": 1.0,
+  "modification_rate": 0.0,
+  "mean_steering_modification_rad": 0.0,
+  "peak_steering_modification_rad": 0.0,
+  "no_witness_fraction": 0.0,
+  "budget_unknown_fraction": 0.0,
+  "latency_ms": {
+    "p50": 0.1917,
+    "p95": 0.6573199999999998,
+    "p99": 0.7453839999999999,
+    "max": 0.7674
+  },
+  "wall_time_s": 0.005760699998063501,
+  "formal_evidence": false
+}

@@ -1,0 +1,19 @@
+FROM debian:bookworm-slim AS build
+RUN apt-get update && apt-get install -y --no-install-recommends cmake ninja-build g++ python3 && rm -rf /var/lib/apt/lists/*
+WORKDIR /src
+COPY . .
+RUN cmake -S . -B build -G Ninja -DCMAKE_BUILD_TYPE=Release -DCOCOMMAND_BUILD_TESTS=ON -DCOCOMMAND_BUILD_PYBIND=OFF \
+ && cmake --build build --parallel 2 \
+ && ctest --test-dir build --output-on-failure
+
+FROM debian:bookworm-slim
+RUN apt-get update && apt-get install -y --no-install-recommends python3 && rm -rf /var/lib/apt/lists/*
+WORKDIR /opt/cocommand
+COPY --from=build /src/build/cocommand_runner /usr/local/bin/cocommand_runner
+COPY --from=build /src/build/libcocommand_c.so /usr/local/lib/libcocommand_c.so
+COPY python ./python
+COPY configs ./configs
+ENV PYTHONPATH=/opt/cocommand/python COCOMMAND_NATIVE_LIB=/usr/local/lib/libcocommand_c.so
+ENTRYPOINT ["cocommand_runner"]
+CMD ["doctor"]
+

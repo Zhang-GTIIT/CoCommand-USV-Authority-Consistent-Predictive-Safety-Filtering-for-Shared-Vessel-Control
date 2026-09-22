@@ -1,0 +1,1281 @@
+{
+  "budget_replay": {
+    "case_count": 90,
+    "totals": {
+      "steps:32:exhaustive": {
+        "kind": "steps",
+        "budget": 32,
+        "variant": "exhaustive",
+        "calls": 18000,
+        "reference_witness_calls": 17084,
+        "accepted": 0,
+        "unknown": 18000,
+        "exhausted": 0,
+        "invalid_accepts": 0,
+        "accepted_reference_disagreements": 0,
+        "step_overshoots": 0,
+        "witness_fraction": 0.0,
+        "reference_witness_coverage": 0.0,
+        "unknown_fraction": 1.0,
+        "max_native_ms": 0.2313,
+        "mean_native_ms": 0.021324394444444443
+      },
+      "steps:32:short_circuit": {
+        "kind": "steps",
+        "budget": 32,
+        "variant": "short_circuit",
+        "calls": 18000,
+        "reference_witness_calls": 17084,
+        "accepted": 0,
+        "unknown": 18000,
+        "exhausted": 0,
+        "invalid_accepts": 0,
+        "accepted_reference_disagreements": 0,
+        "step_overshoots": 0,
+        "witness_fraction": 0.0,
+        "reference_witness_coverage": 0.0,
+        "unknown_fraction": 1.0,
+        "max_native_ms": 0.723,
+        "mean_native_ms": 0.021267249999999998
+      },
+      "steps:64:exhaustive": {
+        "kind": "steps",
+        "budget": 64,
+        "variant": "exhaustive",
+        "calls": 18000,
+        "reference_witness_calls": 17084,
+        "accepted": 0,
+        "unknown": 18000,
+        "exhausted": 0,
+        "invalid_accepts": 0,
+        "accepted_reference_disagreements": 0,
+        "step_overshoots": 0,
+        "witness_fraction": 0.0,
+        "reference_witness_coverage": 0.0,
+        "unknown_fraction": 1.0,
+        "max_native_ms": 0.2177,
+        "mean_native_ms": 0.029932050000000005
+      },
+      "steps:64:short_circuit": {
+        "kind": "steps",
+        "budget": 64,
+        "variant": "short_circuit",
+        "calls": 18000,
+        "reference_witness_calls": 17084,
+        "accepted": 11759,
+        "unknown": 6241,
+        "exhausted": 0,
+        "invalid_accepts": 0,
+        "accepted_reference_disagreements": 0,
+        "step_overshoots": 0,
+        "witness_fraction": 0.6532777777777777,
+        "reference_witness_coverage": 0.6883048466401311,
+        "unknown_fraction": 0.3467222222222222,
+        "max_native_ms": 0.1763,
+        "mean_native_ms": 0.026252461111111108
+      },
+      "steps:128:exhaustive": {
+        "kind": "steps",
+        "budget": 128,
+        "variant": "exhaustive",
+        "calls": 18000,
+        "reference_witness_calls": 17084,
+        "accepted": 0,
+        "unknown": 18000,
+        "exhausted": 0,
+        "invalid_accepts": 0,
+        "accepted_reference_disagreements": 0,
+        "step_overshoots": 0,
+        "witness_fraction": 0.0,
+        "reference_witness_coverage": 0.0,
+        "unknown_fraction": 1.0,
+        "max_native_ms": 1.415,
+        "mean_native_ms": 0.05350364444444445
+      },
+      "steps:128:short_circuit": {
+        "kind": "steps",
+        "budget": 128,
+        "variant": "short_circuit",
+        "calls": 18000,
+        "reference_witness_calls": 17084,
+        "accepted": 13496,
+        "unknown": 4504,
+        "exhausted": 0,
+        "invalid_accepts": 0,
+        "accepted_reference_disagreements": 0,
+        "step_overshoots": 0,
+        "witness_fraction": 0.7497777777777778,
+        "reference_witness_coverage": 0.7899789276516038,
+        "unknown_fraction": 0.25022222222222223,
+        "max_native_ms": 0.3537,
+        "mean_native_ms": 0.03360446666666666
+      },
+      "steps:256:exhaustive": {
+        "kind": "steps",
+        "budget": 256,
+        "variant": "exhaustive",
+        "calls": 18000,
+        "reference_witness_calls": 17084,
+        "accepted": 349,
+        "unknown": 17651,
+        "exhausted": 0,
+        "invalid_accepts": 0,
+        "accepted_reference_disagreements": 0,
+        "step_overshoots": 0,
+        "witness_fraction": 0.01938888888888889,
+        "reference_witness_coverage": 0.020428471084055256,
+        "unknown_fraction": 0.9806111111111111,
+        "max_native_ms": 1.2668,
+        "mean_native_ms": 0.10116583333333333
+      },
+      "steps:256:short_circuit": {
+        "kind": "steps",
+        "budget": 256,
+        "variant": "short_circuit",
+        "calls": 18000,
+        "reference_witness_calls": 17084,
+        "accepted": 16667,
+        "unknown": 1333,
+        "exhausted": 0,
+        "invalid_accepts": 0,
+        "accepted_reference_disagreements": 0,
+        "step_overshoots": 0,
+        "witness_fraction": 0.9259444444444445,
+        "reference_witness_coverage": 0.9755911964411145,
+        "unknown_fraction": 0.07405555555555556,
+        "max_native_ms": 0.8288,
+        "mean_native_ms": 0.03971348333333333
+      },
+      "steps:512:exhaustive": {
+        "kind": "steps",
+        "budget": 512,
+        "variant": "exhaustive",
+        "calls": 18000,
+        "reference_witness_calls": 17084,
+        "accepted": 4655,
+        "unknown": 13338,
+        "exhausted": 7,
+        "invalid_accepts": 0,
+        "accepted_reference_disagreements": 0,
+        "step_overshoots": 0,
+        "witness_fraction": 0.2586111111111111,
+        "reference_witness_coverage": 0.27247717162257085,
+        "unknown_fraction": 0.741,
+        "max_native_ms": 1.8853,
+        "mean_native_ms": 0.18864143333333333
+      },
+      "steps:512:short_circuit": {
+        "kind": "steps",
+        "budget": 512,
+        "variant": "short_circuit",
+        "calls": 18000,
+        "reference_witness_calls": 17084,
+        "accepted": 16862,
+        "unknown": 1131,
+        "exhausted": 7,
+        "invalid_accepts": 0,
+        "accepted_reference_disagreements": 0,
+        "step_overshoots": 0,
+        "witness_fraction": 0.9367777777777778,
+        "reference_witness_coverage": 0.9870053851557012,
+        "unknown_fraction": 0.06283333333333334,
+        "max_native_ms": 0.6114,
+        "mean_native_ms": 0.047054211111111105
+      },
+      "steps:1024:exhaustive": {
+        "kind": "steps",
+        "budget": 1024,
+        "variant": "exhaustive",
+        "calls": 18000,
+        "reference_witness_calls": 17084,
+        "accepted": 16885,
+        "unknown": 1096,
+        "exhausted": 19,
+        "invalid_accepts": 0,
+        "accepted_reference_disagreements": 0,
+        "step_overshoots": 0,
+        "witness_fraction": 0.9380555555555555,
+        "reference_witness_coverage": 0.9883516740810114,
+        "unknown_fraction": 0.06088888888888889,
+        "max_native_ms": 1.8342,
+        "mean_native_ms": 0.21773576666666666
+      },
+      "steps:1024:short_circuit": {
+        "kind": "steps",
+        "budget": 1024,
+        "variant": "short_circuit",
+        "calls": 18000,
+        "reference_witness_calls": 17084,
+        "accepted": 16888,
+        "unknown": 1093,
+        "exhausted": 19,
+        "invalid_accepts": 0,
+        "accepted_reference_disagreements": 0,
+        "step_overshoots": 0,
+        "witness_fraction": 0.9382222222222222,
+        "reference_witness_coverage": 0.9885272769843128,
+        "unknown_fraction": 0.06072222222222222,
+        "max_native_ms": 1.0817,
+        "mean_native_ms": 0.060646033333333335
+      },
+      "steps:4096:exhaustive": {
+        "kind": "steps",
+        "budget": 4096,
+        "variant": "exhaustive",
+        "calls": 18000,
+        "reference_witness_calls": 17084,
+        "accepted": 17054,
+        "unknown": 591,
+        "exhausted": 355,
+        "invalid_accepts": 0,
+        "accepted_reference_disagreements": 0,
+        "step_overshoots": 0,
+        "witness_fraction": 0.9474444444444444,
+        "reference_witness_coverage": 0.9982439709669867,
+        "unknown_fraction": 0.03283333333333333,
+        "max_native_ms": 3.8379,
+        "mean_native_ms": 0.28256509444444444
+      },
+      "steps:4096:short_circuit": {
+        "kind": "steps",
+        "budget": 4096,
+        "variant": "short_circuit",
+        "calls": 18000,
+        "reference_witness_calls": 17084,
+        "accepted": 17058,
+        "unknown": 587,
+        "exhausted": 355,
+        "invalid_accepts": 0,
+        "accepted_reference_disagreements": 0,
+        "step_overshoots": 0,
+        "witness_fraction": 0.9476666666666667,
+        "reference_witness_coverage": 0.9984781081713884,
+        "unknown_fraction": 0.03261111111111111,
+        "max_native_ms": 4.2867,
+        "mean_native_ms": 0.12619727777777778
+      },
+      "deadline_ms:0.1:exhaustive": {
+        "kind": "deadline_ms",
+        "budget": 0.1,
+        "variant": "exhaustive",
+        "calls": 1890,
+        "reference_witness_calls": 1821,
+        "accepted": 24,
+        "unknown": 1866,
+        "exhausted": 0,
+        "invalid_accepts": 0,
+        "accepted_reference_disagreements": 0,
+        "step_overshoots": 0,
+        "witness_fraction": 0.012698412698412698,
+        "reference_witness_coverage": 0.013179571663920923,
+        "unknown_fraction": 0.9873015873015873,
+        "max_native_ms": 0.1996,
+        "mean_native_ms": 0.1010421693121693
+      },
+      "deadline_ms:0.1:short_circuit": {
+        "kind": "deadline_ms",
+        "budget": 0.1,
+        "variant": "short_circuit",
+        "calls": 1890,
+        "reference_witness_calls": 1821,
+        "accepted": 1773,
+        "unknown": 117,
+        "exhausted": 0,
+        "invalid_accepts": 0,
+        "accepted_reference_disagreements": 0,
+        "step_overshoots": 0,
+        "witness_fraction": 0.9380952380952381,
+        "reference_witness_coverage": 0.9736408566721582,
+        "unknown_fraction": 0.06190476190476191,
+        "max_native_ms": 0.1227,
+        "mean_native_ms": 0.03878603174603174
+      },
+      "deadline_ms:0.25:exhaustive": {
+        "kind": "deadline_ms",
+        "budget": 0.25,
+        "variant": "exhaustive",
+        "calls": 1890,
+        "reference_witness_calls": 1821,
+        "accepted": 1442,
+        "unknown": 448,
+        "exhausted": 0,
+        "invalid_accepts": 0,
+        "accepted_reference_disagreements": 0,
+        "step_overshoots": 0,
+        "witness_fraction": 0.762962962962963,
+        "reference_witness_coverage": 0.7918725974739155,
+        "unknown_fraction": 0.23703703703703705,
+        "max_native_ms": 0.9375,
+        "mean_native_ms": 0.21266359788359787
+      },
+      "deadline_ms:0.25:short_circuit": {
+        "kind": "deadline_ms",
+        "budget": 0.25,
+        "variant": "short_circuit",
+        "calls": 1890,
+        "reference_witness_calls": 1821,
+        "accepted": 1805,
+        "unknown": 85,
+        "exhausted": 0,
+        "invalid_accepts": 0,
+        "accepted_reference_disagreements": 0,
+        "step_overshoots": 0,
+        "witness_fraction": 0.955026455026455,
+        "reference_witness_coverage": 0.9912136188907194,
+        "unknown_fraction": 0.04497354497354497,
+        "max_native_ms": 0.26,
+        "mean_native_ms": 0.04626587301587301
+      },
+      "deadline_ms:0.5:exhaustive": {
+        "kind": "deadline_ms",
+        "budget": 0.5,
+        "variant": "exhaustive",
+        "calls": 1890,
+        "reference_witness_calls": 1821,
+        "accepted": 1802,
+        "unknown": 85,
+        "exhausted": 3,
+        "invalid_accepts": 0,
+        "accepted_reference_disagreements": 0,
+        "step_overshoots": 0,
+        "witness_fraction": 0.9534391534391534,
+        "reference_witness_coverage": 0.9895661724327293,
+        "unknown_fraction": 0.04497354497354497,
+        "max_native_ms": 1.1706,
+        "mean_native_ms": 0.23466851851851853
+      },
+      "deadline_ms:0.5:short_circuit": {
+        "kind": "deadline_ms",
+        "budget": 0.5,
+        "variant": "short_circuit",
+        "calls": 1890,
+        "reference_witness_calls": 1821,
+        "accepted": 1809,
+        "unknown": 78,
+        "exhausted": 3,
+        "invalid_accepts": 0,
+        "accepted_reference_disagreements": 0,
+        "step_overshoots": 0,
+        "witness_fraction": 0.9571428571428572,
+        "reference_witness_coverage": 0.9934102141680395,
+        "unknown_fraction": 0.04126984126984127,
+        "max_native_ms": 0.5115,
+        "mean_native_ms": 0.05748941798941799
+      },
+      "deadline_ms:1.0:exhaustive": {
+        "kind": "deadline_ms",
+        "budget": 1.0,
+        "variant": "exhaustive",
+        "calls": 1890,
+        "reference_witness_calls": 1821,
+        "accepted": 1809,
+        "unknown": 78,
+        "exhausted": 3,
+        "invalid_accepts": 0,
+        "accepted_reference_disagreements": 0,
+        "step_overshoots": 0,
+        "witness_fraction": 0.9571428571428572,
+        "reference_witness_coverage": 0.9934102141680395,
+        "unknown_fraction": 0.04126984126984127,
+        "max_native_ms": 1.0145,
+        "mean_native_ms": 0.25413084656084656
+      },
+      "deadline_ms:1.0:short_circuit": {
+        "kind": "deadline_ms",
+        "budget": 1.0,
+        "variant": "short_circuit",
+        "calls": 1890,
+        "reference_witness_calls": 1821,
+        "accepted": 1810,
+        "unknown": 77,
+        "exhausted": 3,
+        "invalid_accepts": 0,
+        "accepted_reference_disagreements": 0,
+        "step_overshoots": 0,
+        "witness_fraction": 0.9576719576719577,
+        "reference_witness_coverage": 0.9939593629873695,
+        "unknown_fraction": 0.040740740740740744,
+        "max_native_ms": 1.0024,
+        "mean_native_ms": 0.0774026455026455
+      },
+      "deadline_ms:2.0:exhaustive": {
+        "kind": "deadline_ms",
+        "budget": 2.0,
+        "variant": "exhaustive",
+        "calls": 1890,
+        "reference_witness_calls": 1821,
+        "accepted": 1818,
+        "unknown": 33,
+        "exhausted": 39,
+        "invalid_accepts": 0,
+        "accepted_reference_disagreements": 0,
+        "step_overshoots": 0,
+        "witness_fraction": 0.9619047619047619,
+        "reference_witness_coverage": 0.9983525535420099,
+        "unknown_fraction": 0.01746031746031746,
+        "max_native_ms": 2.0029,
+        "mean_native_ms": 0.2847151851851852
+      },
+      "deadline_ms:2.0:short_circuit": {
+        "kind": "deadline_ms",
+        "budget": 2.0,
+        "variant": "short_circuit",
+        "calls": 1890,
+        "reference_witness_calls": 1821,
+        "accepted": 1818,
+        "unknown": 32,
+        "exhausted": 40,
+        "invalid_accepts": 0,
+        "accepted_reference_disagreements": 0,
+        "step_overshoots": 0,
+        "witness_fraction": 0.9619047619047619,
+        "reference_witness_coverage": 0.9983525535420099,
+        "unknown_fraction": 0.016931216931216932,
+        "max_native_ms": 2.0025,
+        "mean_native_ms": 0.10855439153439153
+      }
+    },
+    "paired_differences": {
+      "steps:32": {
+        "mean_witness_fraction_gain": 0.0,
+        "case_bootstrap_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "steps:64": {
+        "mean_witness_fraction_gain": 0.6532777777777778,
+        "case_bootstrap_95": [
+          0.6292222222222222,
+          0.6765
+        ]
+      },
+      "steps:128": {
+        "mean_witness_fraction_gain": 0.7497777777777779,
+        "case_bootstrap_95": [
+          0.7206666666666667,
+          0.7783333333333333
+        ]
+      },
+      "steps:256": {
+        "mean_witness_fraction_gain": 0.9065555555555556,
+        "case_bootstrap_95": [
+          0.8945555555555557,
+          0.918
+        ]
+      },
+      "steps:512": {
+        "mean_witness_fraction_gain": 0.6781666666666667,
+        "case_bootstrap_95": [
+          0.6497222222222222,
+          0.7057222222222223
+        ]
+      },
+      "steps:1024": {
+        "mean_witness_fraction_gain": 0.00016666666666666666,
+        "case_bootstrap_95": [
+          0.0,
+          0.0003888888888888889
+        ]
+      },
+      "steps:4096": {
+        "mean_witness_fraction_gain": 0.00022222222222222223,
+        "case_bootstrap_95": [
+          5.555555555555556e-05,
+          0.00044444444444444447
+        ]
+      },
+      "deadline_ms:0.1": {
+        "mean_witness_fraction_gain": 0.9253968253968253,
+        "case_bootstrap_95": [
+          0.9037037037037037,
+          0.946031746031746
+        ]
+      },
+      "deadline_ms:0.25": {
+        "mean_witness_fraction_gain": 0.19206349206349205,
+        "case_bootstrap_95": [
+          0.15343915343915343,
+          0.23333333333333334
+        ]
+      },
+      "deadline_ms:0.5": {
+        "mean_witness_fraction_gain": 0.0037037037037037034,
+        "case_bootstrap_95": [
+          0.000529100529100529,
+          0.007936507936507936
+        ]
+      },
+      "deadline_ms:1.0": {
+        "mean_witness_fraction_gain": 0.000529100529100529,
+        "case_bootstrap_95": [
+          0.0,
+          0.0015873015873015873
+        ]
+      },
+      "deadline_ms:2.0": {
+        "mean_witness_fraction_gain": 0.0,
+        "case_bootstrap_95": [
+          0.0,
+          0.0
+        ]
+      }
+    }
+  },
+  "budget_closed": {
+    "limited_exhaustive": {
+      "overall": {
+        "trials": 30,
+        "collisions": 20,
+        "collision_wilson_95": [
+          0.4878005164454384,
+          0.8076950191632386
+        ],
+        "goals": 0,
+        "timeouts": 0,
+        "mean_pass_through": 0.23119462772239896,
+        "mean_steering_correction_deg": 3.1270300956224317,
+        "mean_progress_m": 8.76742806667549,
+        "mean_unknown_fraction": 0.6093427621154603,
+        "mean_no_witness_fraction": 0.18335336470324112,
+        "applied_throttle_violations": 0,
+        "mean_goal_time_successes_only_s": null
+      },
+      "by_family": {
+        "crossing": {
+          "trials": 10,
+          "collisions": 6,
+          "collision_wilson_95": [
+            0.31267376973365824,
+            0.8318196702937638
+          ],
+          "goals": 0,
+          "timeouts": 0,
+          "mean_pass_through": 0.28394693400426957,
+          "mean_steering_correction_deg": 2.56546271819208,
+          "mean_progress_m": 8.912585087485454,
+          "mean_unknown_fraction": 0.5966251233243969,
+          "mean_no_witness_fraction": 0.1488727906887663,
+          "applied_throttle_violations": 0,
+          "mean_goal_time_successes_only_s": null
+        },
+        "late_high_throttle": {
+          "trials": 10,
+          "collisions": 10,
+          "collision_wilson_95": [
+            0.7224672001371107,
+            0.9999999999999999
+          ],
+          "goals": 0,
+          "timeouts": 0,
+          "mean_pass_through": 0.12379708071426339,
+          "mean_steering_correction_deg": 3.6297170896441298,
+          "mean_progress_m": 5.155932752714733,
+          "mean_unknown_fraction": 0.6226879017954869,
+          "mean_no_witness_fraction": 0.27304603252784365,
+          "applied_throttle_violations": 0,
+          "mean_goal_time_successes_only_s": null
+        },
+        "static": {
+          "trials": 10,
+          "collisions": 4,
+          "collision_wilson_95": [
+            0.16818032970623614,
+            0.6873262302663417
+          ],
+          "goals": 0,
+          "timeouts": 0,
+          "mean_pass_through": 0.28583986844866394,
+          "mean_steering_correction_deg": 3.185910479031086,
+          "mean_progress_m": 12.233766359826289,
+          "mean_unknown_fraction": 0.6087152612264972,
+          "mean_no_witness_fraction": 0.12814127089311336,
+          "applied_throttle_violations": 0,
+          "mean_goal_time_successes_only_s": null
+        }
+      }
+    },
+    "limited_short": {
+      "overall": {
+        "trials": 30,
+        "collisions": 19,
+        "collision_wilson_95": [
+          0.4551356365479487,
+          0.7812607919389929
+        ],
+        "goals": 0,
+        "timeouts": 0,
+        "mean_pass_through": 0.4352623352279732,
+        "mean_steering_correction_deg": 2.570424802507329,
+        "mean_progress_m": 7.28950316143394,
+        "mean_unknown_fraction": 0.41944518196945596,
+        "mean_no_witness_fraction": 0.16127511944612663,
+        "applied_throttle_violations": 0,
+        "mean_goal_time_successes_only_s": null
+      },
+      "by_family": {
+        "crossing": {
+          "trials": 10,
+          "collisions": 6,
+          "collision_wilson_95": [
+            0.31267376973365824,
+            0.8318196702937638
+          ],
+          "goals": 0,
+          "timeouts": 0,
+          "mean_pass_through": 0.5018976168397137,
+          "mean_steering_correction_deg": 2.446874082613241,
+          "mean_progress_m": 7.526037818628811,
+          "mean_unknown_fraction": 0.4012349457001824,
+          "mean_no_witness_fraction": 0.10999198750169256,
+          "applied_throttle_violations": 0,
+          "mean_goal_time_successes_only_s": null
+        },
+        "late_high_throttle": {
+          "trials": 10,
+          "collisions": 10,
+          "collision_wilson_95": [
+            0.7224672001371107,
+            0.9999999999999999
+          ],
+          "goals": 0,
+          "timeouts": 0,
+          "mean_pass_through": 0.12379708071426339,
+          "mean_steering_correction_deg": 3.6297170896441298,
+          "mean_progress_m": 5.155932752714733,
+          "mean_unknown_fraction": 0.6226879017954869,
+          "mean_no_witness_fraction": 0.27304603252784365,
+          "applied_throttle_violations": 0,
+          "mean_goal_time_successes_only_s": null
+        },
+        "static": {
+          "trials": 10,
+          "collisions": 3,
+          "collision_wilson_95": [
+            0.10779126740630099,
+            0.6032218525388546
+          ],
+          "goals": 0,
+          "timeouts": 0,
+          "mean_pass_through": 0.6800923081299425,
+          "mean_steering_correction_deg": 1.6346832352646155,
+          "mean_progress_m": 9.186538912958273,
+          "mean_unknown_fraction": 0.2344126984126984,
+          "mean_no_witness_fraction": 0.10078733830884368,
+          "applied_throttle_violations": 0,
+          "mean_goal_time_successes_only_s": null
+        }
+      }
+    }
+  },
+  "stress": {
+    "hypothetical": {
+      "overall": {
+        "trials": 100,
+        "collisions": 35,
+        "collision_wilson_95": [
+          0.26364248243097527,
+          0.44745556703112027
+        ],
+        "goals": 0,
+        "timeouts": 0,
+        "mean_pass_through": 0.38437618877159335,
+        "mean_steering_correction_deg": 8.775250236524007,
+        "mean_progress_m": -0.3491077148078212,
+        "mean_unknown_fraction": 0.0,
+        "mean_no_witness_fraction": 0.5740640740945385,
+        "applied_throttle_violations": 0,
+        "mean_goal_time_successes_only_s": null
+      },
+      "by_family": {
+        "head_on": {
+          "trials": 20,
+          "collisions": 5,
+          "collision_wilson_95": [
+            0.11186170140766569,
+            0.468700877618744
+          ],
+          "goals": 0,
+          "timeouts": 0,
+          "mean_pass_through": 0.6049840483187957,
+          "mean_steering_correction_deg": 7.005218895530738,
+          "mean_progress_m": 0.72025834024982,
+          "mean_unknown_fraction": 0.0,
+          "mean_no_witness_fraction": 0.36960887418277166,
+          "applied_throttle_violations": 0,
+          "mean_goal_time_successes_only_s": null
+        },
+        "late_static": {
+          "trials": 20,
+          "collisions": 20,
+          "collision_wilson_95": [
+            0.8388748419471806,
+            1.0
+          ],
+          "goals": 0,
+          "timeouts": 0,
+          "mean_pass_through": 0.06499414070621501,
+          "mean_steering_correction_deg": 14.6181992058121,
+          "mean_progress_m": 2.5577326532154125,
+          "mean_unknown_fraction": 0.0,
+          "mean_no_witness_fraction": 1.0,
+          "applied_throttle_violations": 0,
+          "mean_goal_time_successes_only_s": null
+        },
+        "multi_obstacle": {
+          "trials": 20,
+          "collisions": 0,
+          "collision_wilson_95": [
+            0.0,
+            0.16112515805281938
+          ],
+          "goals": 0,
+          "timeouts": 0,
+          "mean_pass_through": 0.4184,
+          "mean_steering_correction_deg": 7.878353121622389,
+          "mean_progress_m": -5.967367036539501,
+          "mean_unknown_fraction": 0.0,
+          "mean_no_witness_fraction": 0.536,
+          "applied_throttle_violations": 0,
+          "mean_goal_time_successes_only_s": null
+        },
+        "noisy_dropout_crossing": {
+          "trials": 20,
+          "collisions": 0,
+          "collision_wilson_95": [
+            0.0,
+            0.16112515805281938
+          ],
+          "goals": 0,
+          "timeouts": 0,
+          "mean_pass_through": 0.2732,
+          "mean_steering_correction_deg": 9.082639275724349,
+          "mean_progress_m": -3.0327546119879463,
+          "mean_unknown_fraction": 0.0,
+          "mean_no_witness_fraction": 0.5118,
+          "applied_throttle_violations": 0,
+          "mean_goal_time_successes_only_s": null
+        },
+        "overtaking": {
+          "trials": 20,
+          "collisions": 10,
+          "collision_wilson_95": [
+            0.2992980081982123,
+            0.7007019918017877
+          ],
+          "goals": 0,
+          "timeouts": 0,
+          "mean_pass_through": 0.5603027548329564,
+          "mean_steering_correction_deg": 5.291840683930459,
+          "mean_progress_m": 3.976592081023108,
+          "mean_unknown_fraction": 0.0,
+          "mean_no_witness_fraction": 0.45291149628992067,
+          "applied_throttle_violations": 0,
+          "mean_goal_time_successes_only_s": null
+        }
+      }
+    },
+    "constrained": {
+      "overall": {
+        "trials": 100,
+        "collisions": 25,
+        "collision_wilson_95": [
+          0.17545211362287672,
+          0.34304463548061603
+        ],
+        "goals": 0,
+        "timeouts": 0,
+        "mean_pass_through": 0.45028882838962836,
+        "mean_steering_correction_deg": 7.663450101007171,
+        "mean_progress_m": -2.1659276165168744,
+        "mean_unknown_fraction": 0.0,
+        "mean_no_witness_fraction": 0.5184997468354431,
+        "applied_throttle_violations": 0,
+        "mean_goal_time_successes_only_s": null
+      },
+      "by_family": {
+        "head_on": {
+          "trials": 20,
+          "collisions": 1,
+          "collision_wilson_95": [
+            0.008881448800795402,
+            0.23613119344674205
+          ],
+          "goals": 0,
+          "timeouts": 0,
+          "mean_pass_through": 0.7210683544303798,
+          "mean_steering_correction_deg": 5.760424032032864,
+          "mean_progress_m": -2.209597618117908,
+          "mean_unknown_fraction": 0.0,
+          "mean_no_witness_fraction": 0.23929873417721517,
+          "applied_throttle_violations": 0,
+          "mean_goal_time_successes_only_s": null
+        },
+        "late_static": {
+          "trials": 20,
+          "collisions": 20,
+          "collision_wilson_95": [
+            0.8388748419471806,
+            1.0
+          ],
+          "goals": 0,
+          "timeouts": 0,
+          "mean_pass_through": 0.10652388654517135,
+          "mean_steering_correction_deg": 12.19381159730144,
+          "mean_progress_m": 2.539357200927324,
+          "mean_unknown_fraction": 0.0,
+          "mean_no_witness_fraction": 1.0,
+          "applied_throttle_violations": 0,
+          "mean_goal_time_successes_only_s": null
+        },
+        "multi_obstacle": {
+          "trials": 20,
+          "collisions": 0,
+          "collision_wilson_95": [
+            0.0,
+            0.16112515805281938
+          ],
+          "goals": 0,
+          "timeouts": 0,
+          "mean_pass_through": 0.4208,
+          "mean_steering_correction_deg": 7.514381193985745,
+          "mean_progress_m": -11.02071968627223,
+          "mean_unknown_fraction": 0.0,
+          "mean_no_witness_fraction": 0.5342,
+          "applied_throttle_violations": 0,
+          "mean_goal_time_successes_only_s": null
+        },
+        "noisy_dropout_crossing": {
+          "trials": 20,
+          "collisions": 0,
+          "collision_wilson_95": [
+            0.0,
+            0.16112515805281938
+          ],
+          "goals": 0,
+          "timeouts": 0,
+          "mean_pass_through": 0.2486,
+          "mean_steering_correction_deg": 9.410146602018807,
+          "mean_progress_m": -1.7376375408938582,
+          "mean_unknown_fraction": 0.0,
+          "mean_no_witness_fraction": 0.5684,
+          "applied_throttle_violations": 0,
+          "mean_goal_time_successes_only_s": null
+        },
+        "overtaking": {
+          "trials": 20,
+          "collisions": 4,
+          "collision_wilson_95": [
+            0.08065766257979806,
+            0.41601743225189364
+          ],
+          "goals": 0,
+          "timeouts": 0,
+          "mean_pass_through": 0.7544519009725906,
+          "mean_steering_correction_deg": 3.438487079697001,
+          "mean_progress_m": 1.598959561772301,
+          "mean_unknown_fraction": 0.0,
+          "mean_no_witness_fraction": 0.25060000000000004,
+          "applied_throttle_violations": 0,
+          "mean_goal_time_successes_only_s": null
+        }
+      }
+    },
+    "constrained_short": {
+      "overall": {
+        "trials": 100,
+        "collisions": 25,
+        "collision_wilson_95": [
+          0.17545211362287672,
+          0.34304463548061603
+        ],
+        "goals": 0,
+        "timeouts": 0,
+        "mean_pass_through": 0.45028882838962836,
+        "mean_steering_correction_deg": 7.663450101007171,
+        "mean_progress_m": -2.1659276165168744,
+        "mean_unknown_fraction": 0.0,
+        "mean_no_witness_fraction": 0.5184997468354431,
+        "applied_throttle_violations": 0,
+        "mean_goal_time_successes_only_s": null
+      },
+      "by_family": {
+        "head_on": {
+          "trials": 20,
+          "collisions": 1,
+          "collision_wilson_95": [
+            0.008881448800795402,
+            0.23613119344674205
+          ],
+          "goals": 0,
+          "timeouts": 0,
+          "mean_pass_through": 0.7210683544303798,
+          "mean_steering_correction_deg": 5.760424032032864,
+          "mean_progress_m": -2.209597618117908,
+          "mean_unknown_fraction": 0.0,
+          "mean_no_witness_fraction": 0.23929873417721517,
+          "applied_throttle_violations": 0,
+          "mean_goal_time_successes_only_s": null
+        },
+        "late_static": {
+          "trials": 20,
+          "collisions": 20,
+          "collision_wilson_95": [
+            0.8388748419471806,
+            1.0
+          ],
+          "goals": 0,
+          "timeouts": 0,
+          "mean_pass_through": 0.10652388654517135,
+          "mean_steering_correction_deg": 12.19381159730144,
+          "mean_progress_m": 2.539357200927324,
+          "mean_unknown_fraction": 0.0,
+          "mean_no_witness_fraction": 1.0,
+          "applied_throttle_violations": 0,
+          "mean_goal_time_successes_only_s": null
+        },
+        "multi_obstacle": {
+          "trials": 20,
+          "collisions": 0,
+          "collision_wilson_95": [
+            0.0,
+            0.16112515805281938
+          ],
+          "goals": 0,
+          "timeouts": 0,
+          "mean_pass_through": 0.4208,
+          "mean_steering_correction_deg": 7.514381193985745,
+          "mean_progress_m": -11.02071968627223,
+          "mean_unknown_fraction": 0.0,
+          "mean_no_witness_fraction": 0.5342,
+          "applied_throttle_violations": 0,
+          "mean_goal_time_successes_only_s": null
+        },
+        "noisy_dropout_crossing": {
+          "trials": 20,
+          "collisions": 0,
+          "collision_wilson_95": [
+            0.0,
+            0.16112515805281938
+          ],
+          "goals": 0,
+          "timeouts": 0,
+          "mean_pass_through": 0.2486,
+          "mean_steering_correction_deg": 9.410146602018807,
+          "mean_progress_m": -1.7376375408938582,
+          "mean_unknown_fraction": 0.0,
+          "mean_no_witness_fraction": 0.5684,
+          "applied_throttle_violations": 0,
+          "mean_goal_time_successes_only_s": null
+        },
+        "overtaking": {
+          "trials": 20,
+          "collisions": 4,
+          "collision_wilson_95": [
+            0.08065766257979806,
+            0.41601743225189364
+          ],
+          "goals": 0,
+          "timeouts": 0,
+          "mean_pass_through": 0.7544519009725906,
+          "mean_steering_correction_deg": 3.438487079697001,
+          "mean_progress_m": 1.598959561772301,
+          "mean_unknown_fraction": 0.0,
+          "mean_no_witness_fraction": 0.25060000000000004,
+          "applied_throttle_violations": 0,
+          "mean_goal_time_successes_only_s": null
+        }
+      }
+    }
+  },
+  "mission": {
+    "open_hypothetical": {
+      "overall": {
+        "trials": 60,
+        "collisions": 15,
+        "collision_wilson_95": [
+          0.15776522530056675,
+          0.37232070077047824
+        ],
+        "goals": 0,
+        "timeouts": 45,
+        "mean_pass_through": 0.7823292006713033,
+        "mean_steering_correction_deg": 3.6683518219719176,
+        "mean_progress_m": 4.400260484944725,
+        "mean_unknown_fraction": 0.0,
+        "mean_no_witness_fraction": 0.22373006608300977,
+        "applied_throttle_violations": 0,
+        "mean_goal_time_successes_only_s": null
+      },
+      "by_family": {
+        "crossing": {
+          "trials": 20,
+          "collisions": 5,
+          "collision_wilson_95": [
+            0.11186170140766569,
+            0.468700877618744
+          ],
+          "goals": 0,
+          "timeouts": 15,
+          "mean_pass_through": 0.8284142287656439,
+          "mean_steering_correction_deg": 3.6299869610160695,
+          "mean_progress_m": 5.154568451760846,
+          "mean_unknown_fraction": 0.0,
+          "mean_no_witness_fraction": 0.1791028286004701,
+          "applied_throttle_violations": 0,
+          "mean_goal_time_successes_only_s": null
+        },
+        "late_high_throttle": {
+          "trials": 20,
+          "collisions": 7,
+          "collision_wilson_95": [
+            0.18119182410108206,
+            0.5671457233147638
+          ],
+          "goals": 0,
+          "timeouts": 13,
+          "mean_pass_through": 0.6462561427879633,
+          "mean_steering_correction_deg": 4.846491719230641,
+          "mean_progress_m": 2.940238956038469,
+          "mean_unknown_fraction": 0.0,
+          "mean_no_witness_fraction": 0.36468055006252265,
+          "applied_throttle_violations": 0,
+          "mean_goal_time_successes_only_s": null
+        },
+        "static": {
+          "trials": 20,
+          "collisions": 3,
+          "collision_wilson_95": [
+            0.052368745896216595,
+            0.36041886474075696
+          ],
+          "goals": 0,
+          "timeouts": 17,
+          "mean_pass_through": 0.8723172304603027,
+          "mean_steering_correction_deg": 2.528576785669041,
+          "mean_progress_m": 5.1059740470348585,
+          "mean_unknown_fraction": 0.0,
+          "mean_no_witness_fraction": 0.12740681958603645,
+          "applied_throttle_violations": 0,
+          "mean_goal_time_successes_only_s": null
+        }
+      }
+    },
+    "open_constrained": {
+      "overall": {
+        "trials": 60,
+        "collisions": 0,
+        "collision_wilson_95": [
+          0.0,
+          0.06017185214208986
+        ],
+        "goals": 0,
+        "timeouts": 60,
+        "mean_pass_through": 0.9602916666666667,
+        "mean_steering_correction_deg": 0.9047632304193443,
+        "mean_progress_m": 2.380011399692879,
+        "mean_unknown_fraction": 0.0,
+        "mean_no_witness_fraction": 0.03254166666666667,
+        "applied_throttle_violations": 0,
+        "mean_goal_time_successes_only_s": null
+      },
+      "by_family": {
+        "crossing": {
+          "trials": 20,
+          "collisions": 0,
+          "collision_wilson_95": [
+            0.0,
+            0.16112515805281938
+          ],
+          "goals": 0,
+          "timeouts": 20,
+          "mean_pass_through": 0.970125,
+          "mean_steering_correction_deg": 0.6622471322061979,
+          "mean_progress_m": 2.5946627987327218,
+          "mean_unknown_fraction": 0.0,
+          "mean_no_witness_fraction": 0.026625,
+          "applied_throttle_violations": 0,
+          "mean_goal_time_successes_only_s": null
+        },
+        "late_high_throttle": {
+          "trials": 20,
+          "collisions": 0,
+          "collision_wilson_95": [
+            0.0,
+            0.16112515805281938
+          ],
+          "goals": 0,
+          "timeouts": 20,
+          "mean_pass_through": 0.9400000000000001,
+          "mean_steering_correction_deg": 1.3932143465526632,
+          "mean_progress_m": 1.4933569719935291,
+          "mean_unknown_fraction": 0.0,
+          "mean_no_witness_fraction": 0.046,
+          "applied_throttle_violations": 0,
+          "mean_goal_time_successes_only_s": null
+        },
+        "static": {
+          "trials": 20,
+          "collisions": 0,
+          "collision_wilson_95": [
+            0.0,
+            0.16112515805281938
+          ],
+          "goals": 0,
+          "timeouts": 20,
+          "mean_pass_through": 0.97075,
+          "mean_steering_correction_deg": 0.6588282124991717,
+          "mean_progress_m": 3.052014428352386,
+          "mean_unknown_fraction": 0.0,
+          "mean_no_witness_fraction": 0.025,
+          "applied_throttle_violations": 0,
+          "mean_goal_time_successes_only_s": null
+        }
+      }
+    },
+    "feedback_hypothetical": {
+      "overall": {
+        "trials": 60,
+        "collisions": 31,
+        "collision_wilson_95": [
+          0.39307810032592494,
+          0.6382495046026722
+        ],
+        "goals": 29,
+        "timeouts": 0,
+        "mean_pass_through": 0.6758102745028817,
+        "mean_steering_correction_deg": 6.7238316499093385,
+        "mean_progress_m": 11.350157083573809,
+        "mean_unknown_fraction": 0.0,
+        "mean_no_witness_fraction": 0.39410443792359007,
+        "applied_throttle_violations": 0,
+        "mean_goal_time_successes_only_s": 16.33586206896552
+      },
+      "by_family": {
+        "crossing": {
+          "trials": 20,
+          "collisions": 8,
+          "collision_wilson_95": [
+            0.21880653237281705,
+            0.6134184992377469
+          ],
+          "goals": 12,
+          "timeouts": 0,
+          "mean_pass_through": 0.7576096833784021,
+          "mean_steering_correction_deg": 7.6818376741116055,
+          "mean_progress_m": 13.438270021529846,
+          "mean_unknown_fraction": 0.0,
+          "mean_no_witness_fraction": 0.33101060182849157,
+          "applied_throttle_violations": 0,
+          "mean_goal_time_successes_only_s": 17.825
+        },
+        "late_high_throttle": {
+          "trials": 20,
+          "collisions": 8,
+          "collision_wilson_95": [
+            0.21880653237281705,
+            0.6134184992377469
+          ],
+          "goals": 12,
+          "timeouts": 0,
+          "mean_pass_through": 0.5927552326249955,
+          "mean_steering_correction_deg": 6.559009470580187,
+          "mean_progress_m": 9.985462900204242,
+          "mean_unknown_fraction": 0.0,
+          "mean_no_witness_fraction": 0.45289185975642826,
+          "applied_throttle_violations": 0,
+          "mean_goal_time_successes_only_s": 12.795000000000002
+        },
+        "static": {
+          "trials": 20,
+          "collisions": 15,
+          "collision_wilson_95": [
+            0.531299122381256,
+            0.8881382985923343
+          ],
+          "goals": 5,
+          "timeouts": 0,
+          "mean_pass_through": 0.6770659075052476,
+          "mean_steering_correction_deg": 5.930647805036223,
+          "mean_progress_m": 10.626738328987338,
+          "mean_unknown_fraction": 0.0,
+          "mean_no_witness_fraction": 0.3984108521858504,
+          "applied_throttle_violations": 0,
+          "mean_goal_time_successes_only_s": 21.259999999999998
+        }
+      }
+    },
+    "feedback_constrained": {
+      "overall": {
+        "trials": 60,
+        "collisions": 5,
+        "collision_wilson_95": [
+          0.03612045660173077,
+          0.1806894201833441
+        ],
+        "goals": 52,
+        "timeouts": 3,
+        "mean_pass_through": 0.7861926004114524,
+        "mean_steering_correction_deg": 7.751505623448318,
+        "mean_progress_m": 14.555641262261569,
+        "mean_unknown_fraction": 0.0,
+        "mean_no_witness_fraction": 0.19193231219493356,
+        "applied_throttle_violations": 0,
+        "mean_goal_time_successes_only_s": 16.59653846153846
+      },
+      "by_family": {
+        "crossing": {
+          "trials": 20,
+          "collisions": 5,
+          "collision_wilson_95": [
+            0.11186170140766569,
+            0.468700877618744
+          ],
+          "goals": 12,
+          "timeouts": 3,
+          "mean_pass_through": 0.5932671801075331,
+          "mean_steering_correction_deg": 14.415307749333298,
+          "mean_progress_m": 14.07304166599351,
+          "mean_unknown_fraction": 0.0,
+          "mean_no_witness_fraction": 0.38484102297606687,
+          "applied_throttle_violations": 0,
+          "mean_goal_time_successes_only_s": 22.618333333333336
+        },
+        "late_high_throttle": {
+          "trials": 20,
+          "collisions": 0,
+          "collision_wilson_95": [
+            0.0,
+            0.16112515805281938
+          ],
+          "goals": 20,
+          "timeouts": 0,
+          "mean_pass_through": 0.8754230955337569,
+          "mean_steering_correction_deg": 4.604802675460757,
+          "mean_progress_m": 13.11206725727771,
+          "mean_unknown_fraction": 0.0,
+          "mean_no_witness_fraction": 0.10609764158075614,
+          "applied_throttle_violations": 0,
+          "mean_goal_time_successes_only_s": 11.239
+        },
+        "static": {
+          "trials": 20,
+          "collisions": 0,
+          "collision_wilson_95": [
+            0.0,
+            0.16112515805281938
+          ],
+          "goals": 20,
+          "timeouts": 0,
+          "mean_pass_through": 0.8898875255930676,
+          "mean_steering_correction_deg": 4.2344064455509,
+          "mean_progress_m": 16.481814863513492,
+          "mean_unknown_fraction": 0.0,
+          "mean_no_witness_fraction": 0.08485827202797773,
+          "applied_throttle_violations": 0,
+          "mean_goal_time_successes_only_s": 18.341
+        }
+      }
+    }
+  }
+}
