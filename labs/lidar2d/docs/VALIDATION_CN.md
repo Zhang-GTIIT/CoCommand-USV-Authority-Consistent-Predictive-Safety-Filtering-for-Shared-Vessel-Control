@@ -59,7 +59,7 @@
 
 实际截图：[screenshot.png](evidence/screenshot.png)。机器可读汇总：[results.json](evidence/results.json)。pytest 报告：[Python 3.11](evidence/pytest311.xml)、[Python 3.12](evidence/pytest312.xml)，已去除本机 hostname。
 
-原始扫描、运行目录、虚拟环境、SDK checkout 和编译产物不提交 Git；按 README 的命令可重新生成。独立的 Windows 便携 ZIP 额外包含合成示例扫描、可迁移运行时、SDK 库源码及桥接程序，并附用户提供的数据手册供参考；这些不加入 Git 源码。
+原始扫描、运行目录、虚拟环境、SDK checkout 和编译产物不提交 Git；按 README 的命令可重新生成。当前 Windows 便携 ZIP 只包含独立 SLAM 平台、合成示例扫描、可迁移运行时与 C1 桥接程序，不包含主项目研究内容、完整 SDK 源码或数据手册。
 
 ## Windows 便携包运行检查
 

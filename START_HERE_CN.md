@@ -5,7 +5,7 @@
 ## 最快进入方法（Windows 10/11，64 位 x86 电脑）
 
 1. 把收到的 ZIP **完整解压**到一个短路径，例如 `D:\CoCommand2D\`。不要直接在压缩软件里双击脚本。
-2. 打开解压后的 `CoCommand-USV-2D` 文件夹。
+2. 打开解压后的 `CoCommand-SLAM` 文件夹。
 3. 双击 **`01_START_SIMULATION.cmd`**。
 4. 看到水池和小船后，让输入回中，按 **Enter** 启用；**W/S** 控制前后油门，**A/D** 控制左右转向；也可用方向键。
 5. **Space** 将控制归零并解除启用，**F5** 保存地图，**Esc** 退出。窗口失去焦点会解除启用，回来后需重新按 Enter。
@@ -23,7 +23,7 @@
 | `03_REPLAY_EXAMPLE.cmd` | 读取包内 30 秒、300 帧模拟雷达记录，从零重新估计轨迹和建图 |
 | `04_C1_LIVE.cmd` | 真实 C1 采集：先接好 USB 适配器，输入实际 COM 端口；没有端口会提示退出 |
 
-C1 桥接 `bin/cocommand_c1.exe` 已编译并附 SDK 许可文件。它只用于雷达采集，不控制推进器。**C1 与实体手柄尚未实机验证**，Windows/Linux 软件测试和 SDK 编译通过不能代替硬件验证。
+C1 桥接 `app/bin/cocommand_c1.exe` 已编译并附 SDK 许可文件。它只用于雷达采集，不控制推进器。**C1 与实体手柄尚未实机验证**，Windows/Linux 软件测试和 SDK 编译通过不能代替硬件验证。
 
 ## 界面应该看到什么
 
@@ -46,7 +46,7 @@ C1 桥接 `bin/cocommand_c1.exe` 已编译并附 SDK 许可文件。它只用于
 | 真实 RPLIDAR C1 | 官方 SDK 采集链路已实现并编译；需要实机确认采集、坐标、频率、延迟后才能认定硬件验收通过 |
 | 其它雷达、CSV 或自己写的数据 | 不能直接假定兼容；先转换为 `Scan` 接口或本程序 JSONL 格式 |
 
-统一坐标为 **米、弧度、x 前、y 左、逆时针航向**。C1 原始顺时针角度和毫米距离由驱动转换一次。示例文件 `examples/lidar2d/demo_scans.jsonl` 是规范化模拟数据，不是水池实测，也不是 UART 字节流。
+统一坐标为 **米、弧度、x 前、y 左、逆时针航向**。C1 原始顺时针角度和毫米距离由驱动转换一次。示例文件 `app/examples/demo_scans.jsonl` 是规范化模拟数据，不是水池实测，也不是 UART 字节流。
 
 静止时形成当前视野的局部地图，随着移动才扩展覆盖范围。纯激光定位需要足够静态几何特征；空旷水面、长走廊、对称结构、快速移动或动态障碍会导致漂移/退化。当前没有全局回环和运动去畸变，不能承诺任意场景都定位成功。
 
@@ -60,11 +60,10 @@ C1 桥接 `bin/cocommand_c1.exe` 已编译并附 SDK 许可文件。它只用于
 - 回放自己的记录：在解压目录打开 PowerShell，运行以下命令，把文件路径替换为自己的记录：
 
 ```powershell
-.\.runtime\python.exe -I .\launch_lidar2d.py replay --file "output\某次记录\scans.jsonl"
+.\.runtime\python.exe -I .\app\launch_lidar2d.py replay --file "output\某次记录\scans.jsonl"
 ```
 
-完整安装、驱动、手柄配置、坐标说明与故障处理：`labs/lidar2d/README_CN.md`。
-测试结果与截图：`labs/lidar2d/docs/VALIDATION_CN.md`。
-分发内容和版本：`PACKAGE_INFO.json`、`THIRD_PARTY_NOTICES.txt`。
+便携包运行指引：包内 `README_CN.md`。详细开发说明与测试证据在源码仓库的 `labs/lidar2d/` 中。
+分发版本与许可证：包内 `app/meta/`。
 
-ZIP 保留整个项目的公开源代码与文档，但不复制开发机器的 Git 凭据、虚拟环境、私人资料或全部历史运行数据。便携运行时是独立目录，支持换电脑/移动文件夹后重新启动；不是从开发环境复制的不可迁移 venv。
+ZIP 只保留独立 SLAM 平台：四个启动入口、中文指引、`app/` 程序和 `.runtime/` 运行依赖。不包含主项目研究算法、历史实验、部署文件或论文资料。

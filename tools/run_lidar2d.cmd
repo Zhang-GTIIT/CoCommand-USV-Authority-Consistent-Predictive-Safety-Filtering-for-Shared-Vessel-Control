@@ -10,5 +10,7 @@ echo Python runtime not found. Extract the complete portable ZIP first.
 echo Source checkout users: follow labs\lidar2d\README_CN.md to install Python dependencies.
 exit /b 2
 :run
-"%PYTHON_EXE%" -I "%~dp0..\launch_lidar2d.py" %*
+set "ENTRY_POINT=%~dp0launch_lidar2d.py"
+if not exist "%ENTRY_POINT%" set "ENTRY_POINT=%~dp0..\launch_lidar2d.py"
+"%PYTHON_EXE%" -I "%ENTRY_POINT%" %*
 exit /b %ERRORLEVEL%

@@ -2,6 +2,22 @@
 
 This file is evidence-oriented. `implemented_and_tested` means a listed command completed in the recorded environment; it does not mean real-vessel validation.
 
+## 2026-10-27 update - SLAM-only desktop distribution
+
+- Replaced whole-repository packaging with an explicit 30-file application source
+  allowlist. The archive contains four launchers, a Chinese README, `app/`, and
+  `.runtime/`. Research controllers/results, deployment files, repository history,
+  PDF references and the complete SDK source tree are excluded.
+- Flat application layout preserves simulation, live scanning, independent SLAM,
+  recording/replay and the compiled C1 bridge with its license. Launchers resolve
+  paths in both the source checkout and the independent package.
+- Bundled-runtime validation with only Windows system directories on PATH:
+  all 39 SLAM tests passed; simulation and demo GUIs exited successfully; the
+  300-frame replay reached TRACKING with 20,802 observed cells; no-serial detection
+  returned the expected diagnostic code 2. Physical C1/gamepad validation is pending.
+- Source-launch smoke, research CTest 1/1 and Python unittest 29/29 passed again.
+  Operating instructions: [SLAM package guide](labs/lidar2d/PORTABLE_CN.md).
+
 ## 2026-10-27 update - portable Windows launcher and distribution
 
 - UI and operating workflow focus on SLAM scans, estimated pose, maps and replay.
