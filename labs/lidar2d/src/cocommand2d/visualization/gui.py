@@ -1,4 +1,5 @@
 import math
+import textwrap
 from pathlib import Path
 import numpy as np
 import pygame
@@ -56,7 +57,8 @@ class Dashboard:
             self.text("Move slowly; keep static features visible.", (46, 310), small=True)
             self.text("R resets mapping after a lost relocation.", (46, 345), small=True)
             self.text("SPACE stops input. F5 saves the current map.", (46, 380), small=True)
-            self.text(session.source_status[:64], (46, 430), AMBER, small=True)
+            for index, line in enumerate(textwrap.wrap(session.source_status, width=62)[:4]):
+                self.text(line, (46, 430+index*22), AMBER, small=True)
         self.panel(self.map_rect, "ESTIMATED MAP / SCAN-ONLY FRAME")
         g = session.slam.grid
         rows, cols = np.where(g.observed)
@@ -81,7 +83,7 @@ class Dashboard:
         if len(session.slam.trajectory) > 1:
             pygame.draw.lines(self.screen, (255, 160, 43), False,
                               [mapped(p[1:3]) for p in session.slam.trajectory[-5000:]], 2)
-        if session.scan:
+        if session.scan and session.slam.status in ("INITIALIZED", "TRACKING"):
             for p in transform(session.scan.points(), session.slam.pose)[::2]:
                 pygame.draw.circle(self.screen, (18, 172, 164), mapped(p), 1)
         pygame.draw.circle(self.screen, (225, 54, 86), mapped(session.slam.pose), 5)

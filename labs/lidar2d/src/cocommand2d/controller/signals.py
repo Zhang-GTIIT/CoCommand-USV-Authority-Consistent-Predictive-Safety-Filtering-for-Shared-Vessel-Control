@@ -38,7 +38,7 @@ class Axis:
         else:
             value = (raw-self.center) / (self.maximum-self.center if raw >= self.center else self.center-self.minimum)
             value = -value if self.invert else value
-        value = max(-1, min(1, value))
+        value = max(0 if self.mode == "trigger" else -1, min(1, value))
         return math.copysign(max(0, (abs(value)-self.deadzone)/(1-self.deadzone)), value)
 
 

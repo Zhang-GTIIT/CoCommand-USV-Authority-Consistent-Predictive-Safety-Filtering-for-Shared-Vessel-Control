@@ -69,6 +69,7 @@ def test_stick_continuous_proportional_and_deadzone():
 def test_trigger_and_asymmetric_calibration():
     a = Axis(mode="trigger")
     assert a.map(-1) == 0 and a.map(1) == 1
+    assert a.map(-2) == 0 and a.map(2) == 1
     assert 0 < a.map(0) < 1
     b = Axis(minimum=-.8, center=.1, maximum=.9, deadzone=0)
     assert b.map(.5) == pytest.approx(.5)

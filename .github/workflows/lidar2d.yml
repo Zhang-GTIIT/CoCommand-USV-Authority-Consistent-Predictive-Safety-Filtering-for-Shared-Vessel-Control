@@ -44,5 +44,13 @@ jobs:
           repository: Slamtec/rplidar_sdk
           ref: 99478e5fb90de3b4a6db0080acacd373f8b36869
           path: .external/rplidar_sdk
-      - run: cmake -S labs/lidar2d/native -B build-c1 -DRPLIDAR_SDK_ROOT=${{ github.workspace }}/.external/rplidar_sdk
-      - run: cmake --build build-c1 --config Release --parallel 2
+      - name: Configure SDK on Windows with short compiler paths
+        if: runner.os == 'Windows'
+        shell: pwsh
+        run: |
+          subst X: "$env:GITHUB_WORKSPACE"
+          cmake -S X:/labs/lidar2d/native -B "$env:RUNNER_TEMP/cocommand-c1" -A x64 -DRPLIDAR_SDK_ROOT=X:/.external/rplidar_sdk
+      - name: Configure SDK on Unix
+        if: runner.os != 'Windows'
+        run: cmake -S labs/lidar2d/native -B "${{ runner.temp }}/cocommand-c1" -DRPLIDAR_SDK_ROOT=${{ github.workspace }}/.external/rplidar_sdk
+      - run: cmake --build "${{ runner.temp }}/cocommand-c1" --config Release --parallel 2

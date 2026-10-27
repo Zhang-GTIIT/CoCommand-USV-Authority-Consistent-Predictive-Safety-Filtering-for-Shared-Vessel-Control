@@ -70,3 +70,5 @@
 仓库 CI 增加 Windows/Linux × Python 3.11/3.12 和 Windows/Linux SDK 构建矩阵。新增 CI 的远端状态应以对应 GitHub Actions 运行结果为准，本地测试不能替代该状态。
 
 首轮远端检查中，Linux 新平台测试、SDK 构建以及原项目回归通过；Windows 在 checkout 时因原仓库历史材料路径超过 MAX_PATH 失败，尚未运行测试。工作流已设置 Git `core.longpaths`，并关闭矩阵 fail-fast 以保留各平台独立结果。
+
+启用长路径后，Windows/Linux × Python 3.11/3.12 四个任务均通过。Windows SDK 的编译器识别仍受长构建路径影响，工作流对 SDK 构建采用短临时目录和工作区盘符映射。本地桥接已由独立的 Clang 工具链编译成功。
