@@ -1,4 +1,10 @@
 name: Independent lidar2d laboratory
+env:
+  # The repository name is long; existing research artifact paths exceed MAX_PATH
+  # under the default hosted Windows workspace even before our tests start.
+  GIT_CONFIG_COUNT: '1'
+  GIT_CONFIG_KEY_0: core.longpaths
+  GIT_CONFIG_VALUE_0: 'true'
 on:
   push:
     paths: ["labs/lidar2d/**", ".github/workflows/lidar2d.yml"]
@@ -7,6 +13,7 @@ on:
 jobs:
   python:
     strategy:
+      fail-fast: false
       matrix:
         os: [ubuntu-latest, windows-latest]
         python: ['3.11', '3.12']
@@ -25,6 +32,7 @@ jobs:
       - run: python -m cocommand2d replay --headless --file output/demo/scans.jsonl --output output/replay
   sdk-build:
     strategy:
+      fail-fast: false
       matrix:
         os: [ubuntu-latest, windows-latest]
     runs-on: ${{ matrix.os }}
