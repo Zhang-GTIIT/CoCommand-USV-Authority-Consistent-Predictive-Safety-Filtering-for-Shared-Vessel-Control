@@ -2,6 +2,17 @@
 
 This file is evidence-oriented. `implemented_and_tested` means a listed command completed in the recorded environment; it does not mean real-vessel validation.
 
+## 2026-10-27 update - standalone batch SLAM algorithm package
+
+- Added an offline algorithm entry point accepting timestamped `Scan v1` JSONL and
+  producing only an occupancy-grid map, trajectory and machine-readable summary.
+  It imports only scan validation, scan-to-submap ICP, occupancy mapping and
+  recording I/O; no simulator, GUI, controller, SDK/device driver or research core.
+- The portable package contains the algorithm source, a 300-frame synthetic input,
+  NumPy/SciPy runtime and Chinese input/output specification. The example processed
+  300 frames to `TRACKING` and 20,802 observed cells. Physical lidar data remains
+  unvalidated; real C1 input must first be converted to the documented Scan format.
+
 ## 2026-10-27 update - SLAM-only desktop distribution
 
 - Replaced whole-repository packaging with an explicit 30-file application source
