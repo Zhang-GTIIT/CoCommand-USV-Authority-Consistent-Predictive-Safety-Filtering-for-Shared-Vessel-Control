@@ -2,6 +2,8 @@
 
 这是主仓库下的独立 Python 实验平台：`labs/lidar2d/`。无需 ROS、GPU、原生研究控制器或真实硬件即可运行。现有研究算法和船舶动力学未改动。
 
+收到 Windows 便携 ZIP 后，先完整解压，再双击根目录的 `01_START_SIMULATION.cmd`；完整步骤见 [运行指引和工作流程](../../START_HERE_CN.md)。便携包自带 Python 和依赖。下面的安装步骤用于 GitHub 普通源码下载。
+
 ![运行界面](docs/evidence/screenshot.png)
 
 界面左上是仿真水池与真实运动轨迹，右侧是**仅由扫描估计**的占据地图和轨迹，左下是当前 360° 扫描。界面使用英文短标签，避免不同 Windows 字体配置造成乱码；使用说明为中文。

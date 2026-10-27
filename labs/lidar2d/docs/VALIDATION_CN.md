@@ -59,7 +59,13 @@
 
 实际截图：[screenshot.png](evidence/screenshot.png)。机器可读汇总：[results.json](evidence/results.json)。pytest 报告：[Python 3.11](evidence/pytest311.xml)、[Python 3.12](evidence/pytest312.xml)，已去除本机 hostname。
 
-原始扫描、运行目录、虚拟环境、SDK checkout 和编译产物不提交 Git；按 README 的命令可重新生成。数据手册在本机阅读和核对，未重新分发。
+原始扫描、运行目录、虚拟环境、SDK checkout 和编译产物不提交 Git；按 README 的命令可重新生成。独立的 Windows 便携 ZIP 额外包含合成示例扫描、可迁移运行时、SDK 库源码及桥接程序，并附用户提供的数据手册供参考；这些不加入 Git 源码。
+
+## Windows 便携包运行检查
+
+便携包的独立 Python 3.11.18 运行时实际执行了 39 项测试，全部通过；300 帧无界面仿真和包内示例回放均达到 `TRACKING`，生成 20,802 个已观测栅格。普通仿真、自动演示、示例回放的三个 CMD 入口均成功启动真实图形窗口，正常关闭并保存结果。图形界面截图已检查。
+
+打包前再次运行原项目 CTest（1/1）和 Python unittest（29/29），均通过。ZIP 中只收录 Git 索引中的项目源码、明确选定的运行组件和示例；不收录开发虚拟环境、Git 元数据或临时运行目录。每个分发文件的 SHA-256 记录在 `PACKAGE_SHA256.json`。
 
 ## 后续验收
 

@@ -2,6 +2,21 @@
 
 This file is evidence-oriented. `implemented_and_tested` means a listed command completed in the recorded environment; it does not mean real-vessel validation.
 
+## 2026-10-27 update - portable Windows launcher and distribution
+
+- Added neutral Chinese running/workflow instructions, four CMD entry points, and
+  a relocatable Python launcher. ZIP assembly includes Git-indexed source, a clean
+  CPython runtime, dependency licenses, the C1 SDK bridge/library, and a synthetic
+  300-frame recording. Development venvs, Git metadata and run directories are excluded.
+- Independent bundled Python 3.11.18: 39 laboratory tests passed; 300-frame
+  simulation and example replay reached TRACKING with 20,802 observed cells.
+  Simulation/demo/replay CMD scripts each opened the Windows GUI, saved results,
+  and exited successfully; the saved demo screenshot was visually inspected.
+- Existing research CTest 1/1 and Python unittest 29/29 passed again. Physical
+  C1 and gamepad tests remain pending; there is no physical actuator output.
+- Packaging records source provenance, third-party notices, per-file SHA-256,
+  and archive SHA-256. Guide: [running and workflow](START_HERE_CN.md).
+
 ## 2026-10-27 update - independent 2D lidar and manual-control laboratory
 
 - Added `labs/lidar2d/`, an independently installable Python 3.11+ package with
