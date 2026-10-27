@@ -20,6 +20,12 @@ This file is evidence-oriented. `implemented_and_tested` means a listed command 
   C1 and gamepad tests remain pending; there is no physical actuator output.
 - Packaging records source provenance, third-party notices, per-file SHA-256,
   and archive SHA-256. Guide: [running and workflow](START_HERE_CN.md).
+- Released archive built from `c5023f7`: 86,635,469 bytes; SHA-256
+  `e3d3008b4a76efadb554353247e2ba9729c44509367c13587a9831a8a4ec66b7`.
+  After extraction to a new Unicode/space path, all 7,130 manifest entries
+  matched. With PATH restricted to Windows system directories, the bundled
+  runtime passed 39 tests, opened the simulation GUI, replayed all 300 example
+  scans to TRACKING, and ran the C1 missing-device diagnostic (expected exit 2).
 
 ## 2026-10-27 update - independent 2D lidar and manual-control laboratory
 
