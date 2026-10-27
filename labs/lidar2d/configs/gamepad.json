@@ -1,0 +1,6 @@
+{
+  "throttle": {"index": 1, "minimum": -1, "center": 0, "maximum": 1, "invert": true, "deadzone": 0.08, "mode": "signed"},
+  "steering": {"index": 0, "minimum": -1, "center": 0, "maximum": 1, "invert": true, "deadzone": 0.08, "mode": "signed"},
+  "buttons": {"arm": 0, "stop": 1},
+  "rc": {"minimum_us": 1000, "neutral_us": 1500, "maximum_us": 2000}
+}

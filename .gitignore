@@ -2,6 +2,10 @@
 /build*/
 /.tools/
 /.venv/
+/.venv311/
+/.external/
+/labs/lidar2d/output/
+/labs/lidar2d/build/
 *.obj
 *.o
 *.dll

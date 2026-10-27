@@ -6,6 +6,8 @@
 
 CoCommand-USV studies a practical problem in human–autonomy shared control: **a safety filter should not accept a human command because of a future maneuver it has no authority to execute.** The project implements a predictive, minimum-intervention filter for an unmanned surface vessel and evaluates how executable backup actions, search termination, and limited computation affect collision outcomes, operator intervention, and mission completion.
 
+An independent [2D lidar SLAM and manual-control laboratory (中文使用说明)](labs/lidar2d/README_CN.md) supports keyboard/gamepad simulation, online occupancy mapping, scan recording/replay, and an official-SDK C1 adapter. It does not alter the research controller; physical lidar/gamepad validation is still pending.
+
 The online controller is a CPU-only C++ core, shared by Python experiments and a native runner. An independent Python plant supplies finer-step physical collision checks. The completed studies use synthetic vessel parameters and scripted operator commands.
 
 ## Main findings

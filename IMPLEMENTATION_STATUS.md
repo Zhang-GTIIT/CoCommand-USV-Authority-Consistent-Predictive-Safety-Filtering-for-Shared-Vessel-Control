@@ -2,6 +2,83 @@
 
 This file is evidence-oriented. `implemented_and_tested` means a listed command completed in the recorded environment; it does not mean real-vessel validation.
 
+## 2026-10-27 update - standalone batch SLAM algorithm package
+
+- Added an offline algorithm entry point accepting timestamped `Scan v1` JSONL and
+  producing only an occupancy-grid map, trajectory and machine-readable summary.
+  It imports only scan validation, scan-to-submap ICP, occupancy mapping and
+  recording I/O; no simulator, GUI, controller, SDK/device driver or research core.
+- The portable package contains the algorithm source, a 300-frame synthetic input,
+  NumPy/SciPy runtime and Chinese input/output specification. The example processed
+  300 frames to `TRACKING` and 20,802 observed cells. Physical lidar data remains
+  unvalidated; real C1 input must first be converted to the documented Scan format.
+
+## 2026-10-27 update - SLAM-only desktop distribution
+
+- Replaced whole-repository packaging with an explicit 30-file application source
+  allowlist. The archive contains four launchers, a Chinese README, `app/`, and
+  `.runtime/`. Research controllers/results, deployment files, repository history,
+  PDF references and the complete SDK source tree are excluded.
+- Flat application layout preserves simulation, live scanning, independent SLAM,
+  recording/replay and the compiled C1 bridge with its license. Launchers resolve
+  paths in both the source checkout and the independent package.
+- Bundled-runtime validation with only Windows system directories on PATH:
+  all 39 SLAM tests passed; simulation and demo GUIs exited successfully; the
+  300-frame replay reached TRACKING with 20,802 observed cells; no-serial detection
+  returned the expected diagnostic code 2. Physical C1/gamepad validation is pending.
+- Source-launch smoke, research CTest 1/1 and Python unittest 29/29 passed again.
+  Operating instructions: [SLAM package guide](labs/lidar2d/PORTABLE_CN.md).
+
+## 2026-10-27 update - portable Windows launcher and distribution
+
+- UI and operating workflow focus on SLAM scans, estimated pose, maps and replay.
+  Removed future avoidance workflow text from the laboratory guide and display;
+  static scene geometry remains a raycast/mapping reference. The original
+  steering-only extension stays internal and inactive.
+- Added neutral Chinese running/workflow instructions, four CMD entry points, and
+  a relocatable Python launcher. ZIP assembly includes Git-indexed source, a clean
+  CPython runtime, dependency licenses, the C1 SDK bridge/library, and a synthetic
+  300-frame recording. Development venvs, Git metadata and run directories are excluded.
+- Independent bundled Python 3.11.18: 39 laboratory tests passed; 300-frame
+  simulation and example replay reached TRACKING with 20,802 observed cells.
+  Simulation/demo/replay CMD scripts each opened the Windows GUI, saved results,
+  and exited successfully; the saved demo screenshot was visually inspected.
+- Existing research CTest 1/1 and Python unittest 29/29 passed again. Physical
+  C1 and gamepad tests remain pending; there is no physical actuator output.
+- Packaging records source provenance, third-party notices, per-file SHA-256,
+  and archive SHA-256. Guide: [running and workflow](START_HERE_CN.md).
+- Released archive built from `c5023f7`: 86,635,469 bytes; SHA-256
+  `e3d3008b4a76efadb554353247e2ba9729c44509367c13587a9831a8a4ec66b7`.
+  After extraction to a new Unicode/space path, all 7,130 manifest entries
+  matched. With PATH restricted to Windows system directories, the bundled
+  runtime passed 39 tests, opened the simulation GUI, replayed all 300 example
+  scans to TRACKING, and ran the C1 missing-device diagnostic (expected exit 2).
+
+## 2026-10-27 update - independent 2D lidar and manual-control laboratory
+
+- Added `labs/lidar2d/`, an independently installable Python 3.11+ package with
+  keyboard/gamepad proportional manual driving, a simple 2D plant, raycast scans,
+  scan-only point-to-line ICP local SLAM, occupancy mapping and a Pygame dashboard.
+- Added official SLAMTEC SDK C1M1 bridge (460800/8N1), health/model diagnostics,
+  reconnect/stall handling, recording and replay. SDK commit is pinned in the guide
+  and CI. It compiled locally on Windows; physical C1/gamepad validation is pending.
+- Current scans, accumulated maps and freshness are separate. Replay never claims
+  to be live; stale scans are marked, and the future steering-only hook preserves
+  operator throttle. No physical actuator output or new avoidance algorithm exists.
+- Windows Python 3.11.18 and 3.12.14: 39 new tests each passed. Fresh research-core
+  build, CTest 1/1 and all 29 existing Python tests passed; research code unchanged.
+- A 300-frame synthetic 10 Hz run recorded/replayed to identical grid arrays and
+  estimated trajectory, with 0 rejected matches and 0 collision steps. Position
+  RMSE 0.001669 m and processing P95 27.87 ms are idealized desktop software results,
+  not physical accuracy or end-to-end latency guarantees.
+- Actual Windows GUI run and inspected screenshot, Chinese usage guide, limitations,
+  and detailed evidence: [2D laboratory](labs/lidar2d/README_CN.md) and
+  [validation](labs/lidar2d/docs/VALIDATION_CN.md).
+- Hosted validation for code commit `874cab6`: all six laboratory CI jobs passed
+  (Windows/Linux Python 3.11/3.12, plus Windows/Linux official-SDK bridge builds),
+  and the existing research CI passed. Windows checkout/compiler long-path issues
+  were resolved in the isolated workflow; see validation links for actual runs.
+
 ## 2026-09-19 update - concise English research report
 
 - Created `output/pdf/CoCommand_USV_IEEE_Report.pdf`: six-page IEEE-style English report,

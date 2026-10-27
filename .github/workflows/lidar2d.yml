@@ -1,0 +1,56 @@
+name: Independent lidar2d laboratory
+env:
+  # The repository name is long; existing research artifact paths exceed MAX_PATH
+  # under the default hosted Windows workspace even before our tests start.
+  GIT_CONFIG_COUNT: '1'
+  GIT_CONFIG_KEY_0: core.longpaths
+  GIT_CONFIG_VALUE_0: 'true'
+on:
+  push:
+    paths: ["labs/lidar2d/**", ".github/workflows/lidar2d.yml"]
+  pull_request:
+    paths: ["labs/lidar2d/**", ".github/workflows/lidar2d.yml"]
+jobs:
+  python:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+        python: ['3.11', '3.12']
+    runs-on: ${{ matrix.os }}
+    env:
+      SDL_VIDEODRIVER: dummy
+      SDL_AUDIODRIVER: dummy
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - run: python -m pip install -e "labs/lidar2d[test]"
+      - run: python -m pytest labs/lidar2d/tests -q
+      - run: python -m cocommand2d simulate --headless --demo --steps 300 --record output/demo/scans.jsonl --output output/demo
+      - run: python -m cocommand2d replay --headless --file output/demo/scans.jsonl --output output/replay
+  sdk-build:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Checkout pinned official SDK before configuration
+        uses: actions/checkout@v4
+        with:
+          repository: Slamtec/rplidar_sdk
+          ref: 99478e5fb90de3b4a6db0080acacd373f8b36869
+          path: .external/rplidar_sdk
+      - name: Configure SDK on Windows with short compiler paths
+        if: runner.os == 'Windows'
+        shell: pwsh
+        run: |
+          subst X: "$env:GITHUB_WORKSPACE"
+          cmake -S X:/labs/lidar2d/native -B "$env:RUNNER_TEMP/cocommand-c1" -A x64 -DRPLIDAR_SDK_ROOT=X:/.external/rplidar_sdk
+      - name: Configure SDK on Unix
+        if: runner.os != 'Windows'
+        run: cmake -S labs/lidar2d/native -B "${{ runner.temp }}/cocommand-c1" -DRPLIDAR_SDK_ROOT=${{ github.workspace }}/.external/rplidar_sdk
+      - run: cmake --build "${{ runner.temp }}/cocommand-c1" --config Release --parallel 2
