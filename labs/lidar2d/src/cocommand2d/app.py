@@ -193,7 +193,7 @@ def run_gui(args, session):
             now = time.monotonic()
             age = now-session.received if session.scan else float("inf")
             timing = f"scan age {max(0, age)*1000:.0f} ms / processing {session.processing_ms:.1f} ms"
-            state = "LIVE" if session.observation().fresh(now) else "STALE / NOT FOR AVOIDANCE"
+            state = "LIVE" if session.observation().fresh(now) else "STALE / WAITING FOR SCAN"
             if args.mode == "replay":
                 state = "REPLAY / OFFLINE"
             status = ("SCRIPTED DEMO" if args.demo else guard.reason) + " | " + state + " | " + timing

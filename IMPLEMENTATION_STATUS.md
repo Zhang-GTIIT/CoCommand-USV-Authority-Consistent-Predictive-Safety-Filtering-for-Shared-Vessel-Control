@@ -4,6 +4,10 @@ This file is evidence-oriented. `implemented_and_tested` means a listed command 
 
 ## 2026-10-27 update - portable Windows launcher and distribution
 
+- UI and operating workflow focus on SLAM scans, estimated pose, maps and replay.
+  Removed future avoidance workflow text from the laboratory guide and display;
+  static scene geometry remains a raycast/mapping reference. The original
+  steering-only extension stays internal and inactive.
 - Added neutral Chinese running/workflow instructions, four CMD entry points, and
   a relocatable Python launcher. ZIP assembly includes Git-indexed source, a clean
   CPython runtime, dependency licenses, the C1 SDK bridge/library, and a synthetic

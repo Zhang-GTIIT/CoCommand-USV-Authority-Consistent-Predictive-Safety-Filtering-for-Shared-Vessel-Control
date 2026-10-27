@@ -18,7 +18,7 @@ class Dashboard:
         pygame.display.init()
         pygame.font.init()
         self.screen = pygame.display.set_mode((1360, 900))
-        pygame.display.set_caption("CoCommand-USV | 2D Lidar Laboratory")
+        pygame.display.set_caption("CoCommand-USV | 2D SLAM Mapping")
         self.font = pygame.font.SysFont("Consolas", 18)
         self.small = pygame.font.SysFont("Consolas", 15)
         self.title = pygame.font.SysFont("Segoe UI", 28, bold=True)
@@ -35,8 +35,8 @@ class Dashboard:
 
     def render(self, session, command, status, input_mode, message=""):
         self.screen.fill(BG)
-        self.text("CoCommand / 2D Lidar Laboratory", (24, 20), title=True)
-        self.text("MANUAL HELM  +  SCAN MATCHING  +  OCCUPANCY MAPPING", (26, 62), MUTED, small=True)
+        self.text("CoCommand / 2D SLAM Mapping", (24, 20), title=True)
+        self.text("LIVE SCANS  +  POSE ESTIMATION  +  OCCUPANCY MAPPING", (26, 62), MUTED, small=True)
         self.text(f"SOURCE  {session.mode.upper()}    SCANS  {session.count:05d}    SLAM  {session.slam.status}", (26, 106), CYAN)
         self.panel(self.world_rect, "SIMULATED POOL / TRUTH VIEW" if session.mode == "simulate" else "SENSOR VIEW / NO SIMULATION TRUTH")
         if session.mode == "simulate":
@@ -50,7 +50,7 @@ class Dashboard:
                 pygame.draw.lines(self.screen, AMBER, False, [point(p) for p in session.truth[-5000:]], 2)
             hull = np.array([[.44, 0], [-.32, .22], [-.22, 0], [-.32, -.22]])
             pygame.draw.polygon(self.screen, CYAN, [point(p) for p in transform(hull, session.boat.pose)])
-            self.text("Collision: hull contact" if session.boat.collided else "Free driving / no goal", (r.x+18, r.y+36), AMBER, small=True)
+            self.text("Geometry contact: adjust motion" if session.boat.collided else "Move to collect mapping scans", (r.x+18, r.y+36), AMBER, small=True)
         else:
             self.text("Scan-only localization", (46, 235), CYAN)
             self.text("First scan defines (0, 0, 0).", (46, 276))

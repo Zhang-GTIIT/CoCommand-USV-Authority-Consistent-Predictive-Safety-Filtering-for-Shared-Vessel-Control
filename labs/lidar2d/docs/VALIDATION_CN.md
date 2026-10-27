@@ -73,7 +73,6 @@
 2. 慢速手持运动、遮挡、拔插、断电、恢复、退出停止扫描检查。
 3. 实体手柄的轴编号、正负方向、校准、死区、热插拔与安全中位检查。
 4. 水池光照/反射、船体遮挡、安装偏角、运动去畸变需求与真值对照。
-5. 在这些结果可接受后再接入共享控制；真实推进输出仍需单独的硬件接口审核与显式启用。
 
 代码提交 `874cab6` 的[远端平台 CI](https://github.com/Zhang-GTIIT/CoCommand-USV-Authority-Consistent-Predictive-Safety-Filtering-for-Shared-Vessel-Control/actions/runs/40476873396) **6/6 任务成功**：Windows/Linux × Python 3.11/3.12 的测试、仿真和回放，以及 Windows/Linux SDK 桥接构建。同一提交的[原项目 CI](https://github.com/Zhang-GTIIT/CoCommand-USV-Authority-Consistent-Predictive-Safety-Filtering-for-Shared-Vessel-Control/actions/runs/40476873363)也成功。
 
