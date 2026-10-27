@@ -2,6 +2,27 @@
 
 This file is evidence-oriented. `implemented_and_tested` means a listed command completed in the recorded environment; it does not mean real-vessel validation.
 
+## 2026-10-27 update - independent 2D lidar and manual-control laboratory
+
+- Added `labs/lidar2d/`, an independently installable Python 3.11+ package with
+  keyboard/gamepad proportional manual driving, a simple 2D plant, raycast scans,
+  scan-only point-to-line ICP local SLAM, occupancy mapping and a Pygame dashboard.
+- Added official SLAMTEC SDK C1M1 bridge (460800/8N1), health/model diagnostics,
+  reconnect/stall handling, recording and replay. SDK commit is pinned in the guide
+  and CI. It compiled locally on Windows; physical C1/gamepad validation is pending.
+- Current scans, accumulated maps and freshness are separate. Replay never claims
+  to be live; stale scans are marked, and the future steering-only hook preserves
+  operator throttle. No physical actuator output or new avoidance algorithm exists.
+- Windows Python 3.11.18 and 3.12.14: 39 new tests each passed. Fresh research-core
+  build, CTest 1/1 and all 29 existing Python tests passed; research code unchanged.
+- A 300-frame synthetic 10 Hz run recorded/replayed to identical grid arrays and
+  estimated trajectory, with 0 rejected matches and 0 collision steps. Position
+  RMSE 0.001669 m and processing P95 27.87 ms are idealized desktop software results,
+  not physical accuracy or end-to-end latency guarantees.
+- Actual Windows GUI run and inspected screenshot, Chinese usage guide, limitations,
+  and detailed evidence: [2D laboratory](labs/lidar2d/README_CN.md) and
+  [validation](labs/lidar2d/docs/VALIDATION_CN.md).
+
 ## 2026-09-19 update - concise English research report
 
 - Created `output/pdf/CoCommand_USV_IEEE_Report.pdf`: six-page IEEE-style English report,
