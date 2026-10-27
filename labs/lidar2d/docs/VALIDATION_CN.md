@@ -28,6 +28,8 @@
 | 300 帧虚拟扫描记录 | 成功；帧时间 0.1 s，共 30 s 合成场景 |
 | 离线重放 | 300 帧；全部栅格数组及估计轨迹与在线结果完全一致 |
 | Windows 实际 GUI 启动 | Python 3.11，1200 渲染帧、221 扫描帧；截图人工视觉检查完成 |
+| 真实雷达模式错误 GUI | 虚构端口，300 渲染帧；连接错误、1/2/4 秒重试、STALE 提示和正常退出通过 |
+| GUI 离线回放 | 150 帧扫描重新建图，显示 REPLAY / OFFLINE；截图检查完成 |
 | 手柄模拟量/断连 | 注入模拟轴与设备移除事件，比例输入与归零保护通过 |
 | C1 实体、实体手柄、真实船舶、ARM 板 | **未验证** |
 
@@ -67,8 +69,8 @@
 4. 水池光照/反射、船体遮挡、安装偏角、运动去畸变需求与真值对照。
 5. 在这些结果可接受后再接入共享控制；真实推进输出仍需单独的硬件接口审核与显式启用。
 
-仓库 CI 增加 Windows/Linux × Python 3.11/3.12 和 Windows/Linux SDK 构建矩阵。新增 CI 的远端状态应以对应 GitHub Actions 运行结果为准，本地测试不能替代该状态。
+代码提交 `874cab6` 的[远端平台 CI](https://github.com/Zhang-GTIIT/CoCommand-USV-Authority-Consistent-Predictive-Safety-Filtering-for-Shared-Vessel-Control/actions/runs/40476873396) **6/6 任务成功**：Windows/Linux × Python 3.11/3.12 的测试、仿真和回放，以及 Windows/Linux SDK 桥接构建。同一提交的[原项目 CI](https://github.com/Zhang-GTIIT/CoCommand-USV-Authority-Consistent-Predictive-Safety-Filtering-for-Shared-Vessel-Control/actions/runs/40476873363)也成功。
 
 首轮远端检查中，Linux 新平台测试、SDK 构建以及原项目回归通过；Windows 在 checkout 时因原仓库历史材料路径超过 MAX_PATH 失败，尚未运行测试。工作流已设置 Git `core.longpaths`，并关闭矩阵 fail-fast 以保留各平台独立结果。
 
-启用长路径后，Windows/Linux × Python 3.11/3.12 四个任务均通过。Windows SDK 的编译器识别仍受长构建路径影响，工作流对 SDK 构建采用短临时目录和工作区盘符映射。本地桥接已由独立的 Clang 工具链编译成功。
+启用长路径后，Windows/Linux × Python 3.11/3.12 四个任务均通过。Windows SDK 的编译器识别仍受长构建路径影响，工作流对 SDK 构建采用短临时目录和工作区盘符映射后也通过。本地桥接另由 Clang 工具链编译成功。

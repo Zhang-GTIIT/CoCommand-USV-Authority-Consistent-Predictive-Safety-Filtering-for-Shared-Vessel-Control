@@ -60,5 +60,25 @@
   "replay_map_identical": true,
   "replay_trajectory_identical": true,
   "physical_c1_validated": false,
-  "physical_gamepad_validated": false
+  "physical_gamepad_validated": false,
+  "hosted_ci": {
+    "code_commit": "874cab656a7184d4a2878ba95d69aea6fdabfdb7",
+    "laboratory_run": 40476873396,
+    "laboratory_jobs_passed": 6,
+    "laboratory_jobs_total": 6,
+    "existing_research_run": 40476873363,
+    "conclusion": "success",
+    "platforms": [
+      "Windows",
+      "Linux"
+    ],
+    "python_versions": [
+      "3.11",
+      "3.12"
+    ],
+    "sdk_build_platforms": [
+      "Windows",
+      "Linux"
+    ]
+  }
 }

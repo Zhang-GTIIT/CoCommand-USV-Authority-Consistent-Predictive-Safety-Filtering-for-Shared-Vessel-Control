@@ -22,6 +22,10 @@ This file is evidence-oriented. `implemented_and_tested` means a listed command 
 - Actual Windows GUI run and inspected screenshot, Chinese usage guide, limitations,
   and detailed evidence: [2D laboratory](labs/lidar2d/README_CN.md) and
   [validation](labs/lidar2d/docs/VALIDATION_CN.md).
+- Hosted validation for code commit `874cab6`: all six laboratory CI jobs passed
+  (Windows/Linux Python 3.11/3.12, plus Windows/Linux official-SDK bridge builds),
+  and the existing research CI passed. Windows checkout/compiler long-path issues
+  were resolved in the isolated workflow; see validation links for actual runs.
 
 ## 2026-09-19 update - concise English research report
 
